@@ -1,0 +1,25 @@
+img{
+    width: 100%;
+    height: 100%
+}
+.imageholder{
+    width:fit-content;
+    height: 50vh;
+}
+.work{
+    background-color: #A7A5A3;
+}
+.popup{
+    background-color: white;
+    color: black;
+}
+.items{
+cursor:pointer;
+color: #0F3A63;
+float:left
+}
+.items:hover{
+    cursor:pointer;
+    color: #27864D;
+    font-size: 2vw 
+}
