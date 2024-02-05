@@ -1,6 +1,4 @@
-//This is the Backend Js code to fetch the data
-var word = require("./Encyclo.json");
-//var result = JSON.stringify(word,undefined,2)
-var data = JSON.parse(word)
+// data.js
+import data from './Encyclo.json';
 
-export default data
+export default data;

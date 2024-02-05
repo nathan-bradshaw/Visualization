@@ -1,52 +1,84 @@
-import './mainScreen.scss'
-import { Container, Row,Col } from 'react-bootstrap';
-import WorkItems from './WorkItems';
-import data from '../Backend_Services/data_op.js'
+// MainScreen.jsx
+import './mainScreen.scss';
 import { useState } from 'react';
-import {search} from '../Backend_Services/search_data'
+import { Row, Col } from 'react-bootstrap';
+import data from '../Backend_Services/data_op.js';
+import { Accordion } from 'react-bootstrap';
 
-
-// The main screen with header and search bar
 function MainScreen() {
-    const [list,setList] = useState(data)
-    
-    function handleChange(e)
-    {
-        if(e.target.value === ""){
-            setList(data)
-        }
-        else{
-            const res = search(e.target.value);
-        setList(res)
-        }
-        
-        
-    }
-    return (
-        <div className='main ' >
-        <Container >
-            
-            <Row className=' p-4'>
-                <Col className='border rounded mb-0 heading m-0'><h1>Encyclopedia of Places and Scenes</h1></Col>
-            </Row>
-            <Row className='m-3'></Row>
-            <Row> 
-                <Col md={9}></Col>
-                <Col md = {3}> 
-                    <div>
-                    <input placeholder="Search..........."  type="search"  onChange={handleChange}  className='rounded-3 m-1  border-0 w-100 search' />
-                    </div>   
+  const [activeIndex, setActiveIndex] = useState(null);
 
-                </Col>
-            </Row>
-            <Row className='m-4'></Row>
-            <Row className=' d-flex justify-content-center'>
-                <WorkItems data = {list}/>
-            </Row>
-        </Container> 
+  const handleAccordionSelect = (index) => {
+    setActiveIndex(index === activeIndex ? null : index);
+  };
+
+  return (
+    <div className="main">
+      <Row className=' p-4'>
+        <Col className='border rounded mb-0 heading m-0'><h1>Dictionary of GE People and Places</h1></Col>
+      </Row>
+      {/* ... */}
+      <Row>
+        <div className="container-fluid">
+          <div className="row content">
+            <div className="col-sm-3 sidenav">
+              <Accordion activeKey={activeIndex} onSelect={handleAccordionSelect}>
+              {data.map((source, sourceIndex) => (
+                  <Accordion.Item eventKey={sourceIndex.toString()} key={sourceIndex}>
+                    <Accordion.Header>{source.Title}</Accordion.Header>
+                  </Accordion.Item>
+                ))}
+              </Accordion>
+            </div>
+            <div className="col-sm-9">
+              <Accordion activeKey={activeIndex} onSelect={handleAccordionSelect}>
+              {data.map((source, sourceIndex) => (
+                  <Accordion.Item eventKey={sourceIndex.toString()} key={sourceIndex}>
+                    <Accordion.Header>Subject</Accordion.Header>
+                    <Accordion.Body>
+                      <ul>
+                        {source.Subject.map((subject, subjectIndex) => (
+                          <li key={`${subjectIndex}-subject-${subjectIndex}`}>
+                            <h4 > {source.Relation.map((relation, relationIndex) => (
+                          <><li key={`${s}-relation-${relationIndex}`}>
+                            </h4>
+                            <p>{subject.desc}</p></>
+                          </li>
+                        ))}
+                      </ul>
+                   </Accordion.Body>
+                    <Accordion.Header>Relation</Accordion.Header>
+                    <Accordion.Body>
+                      <ul>
+                        {source.Relation.map((relation, relationIndex) => (
+                          <li key={`${s}-relation-${relationIndex}`}>
+                            <h4>{relation.name}</h4>
+                            <p>{relation.desc}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </Accordion.Body>
+                    {/* <Accordion.Header>Miscellaneous</Accordion.Header>
+                    <Accordion.Body>
+                      <ul>
+                        {work.characters.map((misc, miscIndex) => (
+                          <li key={`${workIndex}-misc-${miscIndex}`}>
+                            <h4>{misc.name}</h4>
+                            <p>{misc.desc}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </Accordion.Body> */}
+                  </Accordion.Item>
+                ))}
+                    </Accordion>
+            </div>
+          </div>
         </div>
-    );
-  }
-  
+      </Row>
+
+    </div >
+  );
+}
+
 export default MainScreen;
-  
