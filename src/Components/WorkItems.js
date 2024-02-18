@@ -36,7 +36,7 @@ function WorkItems(props) {
 
     const renderCard = (item) => {
         return (
-            <Col key={item.id} md={6} lg={4} className="mb-3">
+            <Col key={item.id} md={6} className="mb-3">
                 <Card className="h-100">
                     <Card.Img variant="top" src={item.image} />
                     <Card.Body>
