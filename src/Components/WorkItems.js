@@ -1,49 +1,69 @@
-import { Container, Row } from 'react-bootstrap';
-import Work from './Work';
+// WorkItems.js
 import React, { useEffect, useState } from "react";
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import './workitems.scss';
+import Work from './Work';
 import MobileMainScreen from './MobileMainScreen';
-import './workitems.scss'
 
-//list of all the work displayed. Responsive in nature. 
 function WorkItems(props) {
-    const rows=[];
     const [width, setWidth] = useState(window.innerWidth);
+    const [expandedItem, setExpandedItem] = useState(null);
 
     function handleResize() {
         setWidth(window.innerWidth);
-        window.location.reload(false);
-      }
+    }
+
     useEffect(() => {
-    
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-    }, [width]);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
-    console.log(props.data.length)
+    const handleExpand = (item) => {
+        if (expandedItem === item) {
+            setExpandedItem(null);
+        } else {
+            setExpandedItem(item);
+        }
+    };
 
-    if(width< 768){
-        for(let i = 0; i <props.data.length; i++) {
-            rows.push(<Row className='ml-5 justify-content-center'><MobileMainScreen data = {props.data[i]}  /></Row>);
-        }
-    }
-    else{
-    
-        for(let i = 0; i <props.data.length; i++) {
-            rows.push(<Row className='ml-5 justify-content-center'><Work data = {props.data[i]} /></Row>);
-        }
-    }
-    console.log(rows)
-    if(rows.length == 0){
-        return(
-            <div className='list-empty '><h2 className='text-align-center' >No ITEMS Available</h2></div>
+    const renderMobileMainScreen = (item) => {
+        return (
+            <Row key={item.id} className='ml-5 justify-content-center'>
+                <MobileMainScreen data={item} />
+            </Row>
         );
-    }
-    return (
-        
-        <Container className='justify-content-center '>{rows}</Container>
+    };
 
+    const renderCard = (item) => {
+        return (
+            <Col key={item.id} md={6} className="mb-3">
+                <Card className="h-100">
+                    <Card.Img variant="top" src={item.image} />
+                    <Card.Body>
+                        <Card.Title>{item.name}</Card.Title>
+                        <Button onClick={() => handleExpand(item)}>Expand</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
+        );
+    };
+
+    const renderWorkItems = () => {
+        return props.data.map((item, index) => (
+            <React.Fragment key={index}>
+                {expandedItem === item ? <Work data={item} /> : renderCard(item)}
+            </React.Fragment>
+        ));
+    };
+
+    return (
+        <Container fluid>
+            {width < 768 ? renderMobileMainScreen(props.data) : <Row className='justify-content-center'>{renderWorkItems()}</Row>}
+            {props.data.length === 0 &&
+                <div className='list-empty text-center'><h2>No ITEMS Available</h2></div>
+            }
+        </Container>
     );
-  }
-  
+}
+
 export default WorkItems;
-  
