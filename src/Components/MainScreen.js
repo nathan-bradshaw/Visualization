@@ -3,13 +3,13 @@ import { Container, Row,Col } from 'react-bootstrap';
 import WorkItems from './WorkItems';
 import data from '../Backend_Services/data_op.js'
 import { useState } from 'react';
-import {search} from '../Backend_Services/search_data'
+//import {search} from '../Backend_Services/search_data'
 
 
 // The main screen with header and search bar
 function MainScreen() {
     const [list,setList] = useState(data)
-    
+    /** 
     function handleChange(e)
     {
         if(e.target.value === ""){
@@ -22,6 +22,7 @@ function MainScreen() {
         
         
     }
+    */
     return (
         <div className='main ' >
         <Container >
@@ -31,10 +32,11 @@ function MainScreen() {
             </Row>
             <Row className='m-3'></Row>
             <Row> 
+                
                 <Col md={9}></Col>
                 <Col md = {3}> 
                     <div>
-                    <input placeholder="Search..........."  type="search"  onChange={handleChange}  className='rounded-3 m-1  border-0 w-100 search' />
+                    {/*<input placeholder="Search..........."  type="search"  onChange={handleChange}  className='rounded-3 m-1  border-0 w-100 search' />*/}
                     </div>   
 
                 </Col>

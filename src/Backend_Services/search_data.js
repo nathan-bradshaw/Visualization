@@ -1,5 +1,8 @@
 // service to get the search results. It takes the search query and returns list of related works
 
+
+//NEED TO UPDATE TO BE FINAL.JSON INSTEAD OF ENCYCLO BY CHANGING LOGIC FROM ARRAY TO OBJECT
+
 var word = require("./Encyclo.json");
 //var result = JSON.stringify(word,undefined,2)
 var data = JSON.parse(word)

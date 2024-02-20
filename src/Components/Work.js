@@ -8,34 +8,36 @@ function Work(props) {
     const places = []
     const characters = []
     const miscs = []
-    for(let i=0 ; i<props.data.places.length;i++){
+    //CHANGE TO BE AN OBJECT, NOT ARRAY
+    for(const value of props.data[1].places){
         places.push(<p className='m-2 items hover-zoom'>
             <PopupBox 
-                text= {props.data.places[i].desc}
-                heading= {props.data.places[i].name}
+                text= {value.desc}
+                heading= {value.name}
                 >
             </PopupBox>
         </p>)
     }
-    for (let j=0 ;j<props.data.characters.length;j++){
+    //CHANGE TO BE AN OBJECT, NOT ARRAY
+    for (const value of props.data[1].characters){
         characters.push(<p className='m-2 items hover-zoom'>
             <PopupBox 
-                text= {props.data.characters[j].desc}
-                heading= {props.data.characters[j].name}
+                text= {value.desc}
+                heading= {value.name}
                 >
             </PopupBox>
         </p>)
     }
-    for (let j=0 ;j<props.data.misc.length;j++){
+    //CHANGE TO BE AN OBJECT, NOT ARRAY
+    for (const value of props.data[1].misc){
         miscs.push(<p className='m-2 items hover-zoom'>
             <PopupBox 
-                text= {props.data.misc[j].desc}
-                heading= {props.data.misc[j].name}
+                text= {value.desc}
+                heading= {value.name}
                 >
             </PopupBox>
         </p>)
     }
-    console.log(props.data.work_name)
     return (
         <div className='w-75 m-3 d-flex justify-content-center '>
         <Stack gap={3} className="work border rounded mb-0">
@@ -48,7 +50,7 @@ function Work(props) {
                 <Col>
                     <div>
                         <Row>
-                            <h2 className='m-2 p-2'><p className='p-2 m-2'>{props.data.work_name}</p></h2>
+                            <h2 className='m-2 p-2'><p className='p-2 m-2'>{props.data[0]}</p></h2>
                         </Row>
                         <Row className='m-2'></Row>
                         <Row>
