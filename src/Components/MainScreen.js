@@ -1,7 +1,9 @@
-import './mainScreen.scss'
-import { Container, Row,Col } from 'react-bootstrap';
+// mainScreen.js
+import React, { useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import WorkItems from './WorkItems';
 import data from '../Backend_Services/data_op.js'
+import './mainScreen.scss'
 import { useState } from 'react';
 //import {search} from '../Backend_Services/search_data'
 
@@ -13,14 +15,12 @@ function MainScreen() {
     function handleChange(e)
     {
         if(e.target.value === ""){
+
             setList(data)
-        }
-        else{
+        } else {
             const res = search(e.target.value);
-        setList(res)
+            setList(res)
         }
-        
-        
     }
     */
     return (
@@ -46,9 +46,9 @@ function MainScreen() {
                 <WorkItems data = {list}/>
             </Row>
         </Container> 
+
         </div>
     );
-  }
-  
+}
+
 export default MainScreen;
-  

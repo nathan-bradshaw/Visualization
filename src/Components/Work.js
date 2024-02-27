@@ -1,98 +1,76 @@
-import { Stack, Row,Col, Container } from 'react-bootstrap';
+// Work.js
+import React, { useState } from 'react';
+import { Stack, Row, Col, Container, Collapse } from 'react-bootstrap';
 import './work.scss'
-//import Popup from 'reactjs-popup';
 import PopupBox from './PopupBox';
 
-// the work tiles representing each work.
 function Work(props) {
-    const places = []
-    const characters = []
-    const miscs = []
+    const [openPlaces, setOpenPlaces] = useState(false);
+    const [openCharacters, setOpenCharacters] = useState(false);
+    const [openMisc, setOpenMisc] = useState(false);
 
-    for(const value of props.data[1].places){
-        places.push(<p className='m-2 items hover-zoom'>
-            <PopupBox 
-                text= {value.desc}
-                heading= {value.name}
-                >
-            </PopupBox>
-        </p>)
-    }
+    const togglePlaces = () => setOpenPlaces(!openPlaces);
+    const toggleCharacters = () => setOpenCharacters(!openCharacters);
+    const toggleMisc = () => setOpenMisc(!openMisc);
 
-    for (const value of props.data[1].characters){
-        characters.push(<p className='m-2 items hover-zoom'>
-            <PopupBox 
-                text= {value.desc}
-                heading= {value.name}
-                >
-            </PopupBox>
-        </p>)
-    }
+    const renderPopupBox = (items, toggleFunc) => {
+        return (
+            <React.Fragment>
+                <button onClick={toggleFunc} className='btn btn-link' style={{ color: '#9F2B2B' }}>
+                    {items.name}
+                </button>
+                <Collapse in={items.open}>
+                    <div className='center'>
+                        {items.data.map((item, index) => (
+                            <p key={index} className='m-2 items hover-zoom'>
+                                <PopupBox text={item.desc} heading={item.name} />
+                            </p>
+                        ))}
+                    </div>
+                </Collapse>
+            </React.Fragment>
+        );
+    };
 
-    for (const value of props.data[1].misc){
-        miscs.push(<p className='m-2 items hover-zoom'>
-            <PopupBox 
-                text= {value.desc}
-                heading= {value.name}
-                >
-            </PopupBox>
-        </p>)
-    }
     return (
-        <div className='w-75 m-3 d-flex justify-content-center '>
-        <Stack gap={3} className="work border rounded mb-0">
-            <Row>
-                <Col>
-                    <div className='imageholder m-3'>
-                    <img src={require('../Images/georgeeliot.jpg')} alt="This is a book cover"></img>
-                    </div>               
-                </Col>
-                <Col>
-                    <div>
+        <Container fluid>
+            <Stack gap={3} className="work border rounded mb-0">
+                <Row>
+                    <Col>
+                        <div className='imageholder m-3'>
+                            <img src={require('../Images/georgeeliot.jpg')} alt="Book cover" />
+                        </div>
+                    </Col>
+                    <Col>
                         <Row>
                             <h2 className='m-2 p-2'><p className='p-2 m-2'>{props.data[0]}</p></h2>
                         </Row>
                         <Row className='m-2'></Row>
                         <Row>
-                            <h5>Middlemarch, A Study of Provincial Life is a novel by the English author Mary Anne Evans, who wrote as George Eliot.......... </h5>
+                            <h5>INSERT DESCRIPTION HERE</h5>
                         </Row>
-                        <Row className='m-2'></Row>
-                        <Row>
-                           <Col>
-                           
-                           </Col>
-                           
-                           <Col>
-                           
-                           </Col>
-                        </Row>
-                    </div>
-                </Col>
-                <Row>
-                <h5 className='text-center' style={{color:'#9F2B2B'}}>Places</h5>
-                           <div className='center '>
-                                {places}
-                                
-                            </div>
+                    </Col>
                 </Row>
                 <Row>
-                <h5 className='text-center' style={{color:'#9F2B2B'}}>Characters</h5>
-                           <div className='center '>
-                                {characters}
-                                
-                            </div>
+                    <Col>
+                        {renderPopupBox({ name: 'Places', data: props.data[1].places, open: openPlaces }, togglePlaces)}
+                    </Col>
                 </Row>
                 <Row>
-                <h5 className='text-center' style={{color:'#9F2B2B'}}>Other Named Entities</h5>
-                           <div className='center '>
-                                {miscs}
-                                
-                            </div>
+                    <Col>
+                        {renderPopupBox({ name: 'Characters', data: props.data[1].characters, open: openCharacters }, toggleCharacters)}
+                    </Col>
                 </Row>
-            </Row>
-        </Stack> 
-        </div>
+                <Row>
+
+                    <Col>
+                        {renderPopupBox({ name: 'Misc', data: props.data[1].misc, open: openMisc }, toggleMisc)}
+                    </Col>
+
+                </Row>
+            </Stack>
+        </Container>
     );
-  }
-  
+}
+
 export default Work;
