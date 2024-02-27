@@ -8,7 +8,7 @@ function Work(props) {
     const places = []
     const characters = []
     const miscs = []
-    //CHANGE TO BE AN OBJECT, NOT ARRAY
+
     for(const value of props.data[1].places){
         places.push(<p className='m-2 items hover-zoom'>
             <PopupBox 
@@ -18,7 +18,7 @@ function Work(props) {
             </PopupBox>
         </p>)
     }
-    //CHANGE TO BE AN OBJECT, NOT ARRAY
+
     for (const value of props.data[1].characters){
         characters.push(<p className='m-2 items hover-zoom'>
             <PopupBox 
@@ -28,7 +28,7 @@ function Work(props) {
             </PopupBox>
         </p>)
     }
-    //CHANGE TO BE AN OBJECT, NOT ARRAY
+
     for (const value of props.data[1].misc){
         miscs.push(<p className='m-2 items hover-zoom'>
             <PopupBox 
@@ -83,7 +83,7 @@ function Work(props) {
                             </div>
                 </Row>
                 <Row>
-                <h5 className='text-center' style={{color:'#9F2B2B'}}>Misc</h5>
+                <h5 className='text-center' style={{color:'#9F2B2B'}}>Other Named Entities</h5>
                            <div className='center '>
                                 {miscs}
                                 

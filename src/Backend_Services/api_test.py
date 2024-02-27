@@ -68,13 +68,13 @@ def organize_by_work():
     works = []
     dump = []
     final = {}
-    for i in data:
+    for i in data: #iterate through each item in the data
         if 'Source' in i:
             source = i['Source']
-            source = re.sub('<[^<]+?>', '', source) #test this out and make sure it's gonna work every time
+            source = re.sub('<[^<]+?>', '', source) #remove <em> from some titles
             source = source.strip()
             if source.startswith("Multiple"):
-                source = re.search('\(([^)]+)', source).group(1) #test to make sure it's grabbing correctly
+                source = re.search('\(([^)]+)', source).group(1) 
                 if "Felix Holt, the Radical" in source: #special case for titles that have a comma in them, need to update list or think of algorithm to do this automatically
                     source = source.replace("Felix Holt, the Radical","FHTR")
                 sources = source.split(",")
@@ -100,21 +100,21 @@ def organize_by_work():
         if 'Source' in i and 'Subject' in i and 'Title' in i:
             if 'Description' not in i:
                 i['Description'] = "Description not found"
-            for w in works:# I think we could change this to not make it iterate over all the works if it's causing performance issues by simply adding it to each work array that its Source contains
+            for w in works:
                 if w in i['Source']:
-                    if i['Subject'] in ['Character Name','Pet Name','Real Name','Historical Name']:
+                    if i['Subject'] in ['Character Name','Pet Name','Real Name','Historical Name']: #characters
                         item = {
                             'name': i['Title'],
                             'desc': i['Description']
                         }
                         final[w]['characters'].append(item)
-                    elif i['Subject'] in ['Place','Fictional Place','Real Place']:
+                    elif i['Subject'] in ['Place','Fictional Place','Real Place']: #places
                         item = {
                             'name': i['Title'],
                             'desc': i['Description']
                         } 
                         final[w]['places'].append(item)
-                    else:
+                    else: #misc
                         item = {
                             'name': i['Title'],
                             'desc': i['Description']
