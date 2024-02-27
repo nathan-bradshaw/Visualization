@@ -43,28 +43,30 @@ function Work(props) {
                     </Col>
                     <Col>
                         <Row>
-                            <h2 className='m-2 p-2'><p className='p-2 m-2'>{props.data.work_name}</p></h2>
+                            <h2 className='m-2 p-2'><p className='p-2 m-2'>{props.data[0]}</p></h2>
                         </Row>
                         <Row className='m-2'></Row>
                         <Row>
-                            <h5>Middlemarch, A Study of Provincial Life is a novel by the English author Mary Anne Evans, who wrote as George Eliot.......... </h5>
+                            <h5>INSERT DESCRIPTION HERE</h5>
                         </Row>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        {renderPopupBox({ name: 'Places', data: props.data.places, open: openPlaces }, togglePlaces)}
+                        {renderPopupBox({ name: 'Places', data: props.data[1].places, open: openPlaces }, togglePlaces)}
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        {renderPopupBox({ name: 'Characters', data: props.data.characters, open: openCharacters }, toggleCharacters)}
+                        {renderPopupBox({ name: 'Characters', data: props.data[1].characters, open: openCharacters }, toggleCharacters)}
                     </Col>
                 </Row>
                 <Row>
+
                     <Col>
-                        {renderPopupBox({ name: 'Misc', data: props.data.misc, open: openMisc }, toggleMisc)}
+                        {renderPopupBox({ name: 'Misc', data: props.data[1].misc, open: openMisc }, toggleMisc)}
                     </Col>
+
                 </Row>
             </Stack>
         </Container>

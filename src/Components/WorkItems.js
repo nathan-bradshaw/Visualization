@@ -5,8 +5,13 @@ import './workitems.scss';
 import Work from './Work';
 import MobileMainScreen from './MobileMainScreen';
 
+//NEED TO DOCUMENT THIS BETTER
+
+//list of all the work displayed. Responsive in nature. 
+
 function WorkItems(props) {
     const [width, setWidth] = useState(window.innerWidth);
+
     const [expandedItem, setExpandedItem] = useState(null);
 
     function handleResize() {
@@ -31,6 +36,7 @@ function WorkItems(props) {
             <Row key={item.id} className='ml-5 justify-content-center'>
                 <MobileMainScreen data={item} />
             </Row>
+
         );
     };
 
@@ -49,7 +55,7 @@ function WorkItems(props) {
     };
 
     const renderWorkItems = () => {
-        return props.data.map((item, index) => (
+        return Object.entries(props.data).map((item, index) => (
             <React.Fragment key={index}>
                 {expandedItem === item ? <Work data={item} /> : renderCard(item)}
             </React.Fragment>
@@ -58,8 +64,8 @@ function WorkItems(props) {
 
     return (
         <Container fluid>
-            {width < 768 ? renderMobileMainScreen(props.data) : <Row className='justify-content-center'>{renderWorkItems()}</Row>}
-            {props.data.length === 0 &&
+            {width < 768 ? renderMobileMainScreen(Object.entries(props.data)) : <Row className='justify-content-center'>{renderWorkItems()}</Row>}
+            {Object.entries(props.data).length === 0 &&
                 <div className='list-empty text-center'><h2>No ITEMS Available</h2></div>
             }
         </Container>
