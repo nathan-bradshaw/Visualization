@@ -64,11 +64,12 @@ def test_all(): #need to not include description
 def organize_by_work():
     file = open('data.json')
     data = json.load(file)
-    #compile list of works
-    works = []
+    #compile list of works ***MIGHT WANT TO DELETE THIS SECTION FOR A FIXED LIST OF WORK TITLES INSTEAD
+    works = ["Adam Bede","Brother Jacob", "Daniel Deronda","Felix Holt, the Radical", "Impressions of Theophrastus Such","Janet's Repentance", "Middlemarch", "Mr. Gilfil's Love Story, Scenes of Clerical Life", "Mr. Gilfil's Love Story","Romola", "Silas Marner", "The Lifted Veil", "The Mill on the Floss", "The Sad Fortunes of the Reverend Amos Barton", "The Spanish Gypsy"]
     dump = []
     final = {}
-    for i in data: #iterate through each item in the data
+    #Need to check Mr. Gilfil's Love Story and all other ones 
+    ''' for i in data: #iterate through each item in the data
         if 'Source' in i:
             source = i['Source']
             source = re.sub('<[^<]+?>', '', source) #remove <em> from some titles
@@ -85,8 +86,9 @@ def organize_by_work():
                     if s not in works:
                         works.append(s)
             else:
-                if  source not in works:
+                if source not in works:
                     works.append(source)
+    '''
     #iterate again through each item, for each of its works, add it to the master json under it's correct place
     #organize by work, and then by either place or character or item
     for w in works:
@@ -122,10 +124,19 @@ def organize_by_work():
                         final[w]['misc'].append(item)
         else:
             dump.append(i)
+    link_descriptions(final)
+    #COULD CHANGE SCENES OF CLERICAL LIFE TITLES HERE 
+    final["Janet's Repentance, Scenes of Clerical Life"] = final.pop("Janet's Repentance")
+    final["The Sad Fortunes of the Reverend Amos Barton, Scenes of Clerical Life"] = final.pop("The Sad Fortunes of the Reverend Amos Barton")
     with open('final.json', 'w') as file:
         json.dump(final, file, indent=4)    
-            
-   
+
+def link_descriptions(data):
+    file = open('work_desc.json')
+    descs = json.load(file)
+    for w in descs:
+        data[w]['desc'] = descs[w]
+    
 pull_json() 
 #test_relation()
 #test_subject()
