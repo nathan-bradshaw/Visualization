@@ -1,3 +1,4 @@
+
 img{
     width: 100%;
     height: 100%
@@ -7,19 +8,33 @@ img{
     height: 50vh;
 }
 .work{
-    background-color: #A7A5A3;
+    background-color: #f6f6f6;
+    font-family:'Times New Roman', Times, serif;
 }
 .popup{
-    background-color: white;
+    background-color: rgb(233, 233, 233);
     color: black;
 }
 .items{
 cursor:pointer;
-color: #0F3A63;
-float:left
+color: #9F2B2B;
+float:left;
+
 }
 .items:hover{
     cursor:pointer;
-    color: #27864D;
+    color: #000000;
     font-size: 2vw 
 }
+.show-more-link {
+    color: #9F2B2B; /* Maroon text color */
+    text-decoration: underline; /* Underlined text */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    font-family:'Times New Roman', Times, serif;
+
+  }
+  
+  .show-more-link:hover, .show-more-link:focus {
+    color: black; /* Black text color on hover/focus */
+    text-decoration: underline; /* Ensures underline remains on hover */
+  }
