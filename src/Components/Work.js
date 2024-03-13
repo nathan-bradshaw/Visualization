@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Stack, Row, Col, Container, Collapse } from 'react-bootstrap';
 import './work.scss'
 import PopupBox from './PopupBox';
+import ShowMoreText from './ShowMoreText';
 
 function Work(props) {
     const [openPlaces, setOpenPlaces] = useState(false);
@@ -12,6 +13,28 @@ function Work(props) {
     const togglePlaces = () => setOpenPlaces(!openPlaces);
     const toggleCharacters = () => setOpenCharacters(!openCharacters);
     const toggleMisc = () => setOpenMisc(!openMisc);
+
+    const imagePaths = {
+        georgeeliot: require('../Images/georgeeliot.jpg'),
+        adambede: require('../Images/adambede.jpg'),
+        agatha: require('../Images/agatha.jpg'),
+        amosbarton: require('../Images/amosbarton.jpg'),
+        brotherjacob: require('../Images/brotherjacob.jpg'),
+        danielderonda: require('../Images/danielderonda.jpg'),
+        eliot: require('../Images/eliot.jpg'),
+        felixholt: require('../Images/felixholt.jpg'),
+        impressions: require('../Images/impressions.jpg'),
+        janetsrepentance: require('../Images/janetsrepentance.jpg'),
+        liftedveil: require('../Images/liftedveil.jpg'),
+        middlemarch: require('../Images/middlemarch.jpg'),
+        mrgilfil: require('../Images/mrgilfil.jpg'),
+        romola: require('../Images/romola.jpg'),
+        silasmarner: require('../Images/silasmarner.jpg'),
+        spanishgypsy: require('../Images/spanishgypsy.jpg'),
+        themill: require('../Images/themill.jpg')
+    };
+    const imagePath = imagePaths[props.data[1].image];
+
 
     const renderPopupBox = (items, toggleFunc) => {
         return (
@@ -38,7 +61,8 @@ function Work(props) {
                 <Row>
                     <Col>
                         <div className='imageholder m-3'>
-                            <img src={require('../Images/georgeeliot.jpg')} alt="Book cover" />
+
+                            <img src={imagePath} alt="Book cover" />
                         </div>
                     </Col>
                     <Col>
@@ -47,7 +71,7 @@ function Work(props) {
                         </Row>
                         <Row className='m-2'></Row>
                         <Row>
-                            <h5>INSERT DESCRIPTION HERE</h5>
+                            <ShowMoreText text={props.data[1].desc} maxLength={150} />
                         </Row>
                     </Col>
                 </Row>

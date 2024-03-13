@@ -1,3 +1,4 @@
+
 {
     "Adam Bede": {
         "characters": [
@@ -765,7 +766,8 @@
                 "name": "\"Brimstone\"",
                 "desc": "A Methodist brickmaker and converted poacher. Pupil in Bartle Massey's night school."
             }
-        ]
+        ],
+        "image": "adambede"
     },
     "Brother Jacob": {
         "characters": [
@@ -953,7 +955,8 @@
                 "name": "\"X-Shire Gazette\"",
                 "desc": "Newspaper."
             }
-        ]
+        ],
+        "image": "brotherjacob"
     },
     "Daniel Deronda": {
         "characters": [
@@ -2061,7 +2064,8 @@
                 "name": "\"Clerical Gazette\"",
                 "desc": "A church paper read by Mr. Gascoigne."
             }
-        ]
+        ],
+        "image": "danielderonda"
     },
     "Felix Holt, the Radical": {
         "characters": [
@@ -2841,7 +2845,8 @@
                 "name": "Holt's Carthartic Lozenges",
                 "desc": "One of the quack medicines to which Felix is heir."
             }
-        ]
+        ],
+        "image": "felixholt"
     },
     "Impressions of Theophrastus Such": {
         "characters": [
@@ -3189,7 +3194,8 @@
                 "name": "Megalosaurus",
                 "desc": "\"Greatest of fossils.\""
             }
-        ]
+        ],
+        "image": "impressions"
     },
     "Janet's Repentance": {
         "characters": [
@@ -3725,7 +3731,8 @@
                 "name": "\"Crompton Argus\"",
                 "desc": "Newspaper."
             }
-        ]
+        ],
+        "image": "janetsrepentance"
     },
     "Middlemarch": {
         "characters": [
@@ -5041,7 +5048,8 @@
                 "name": "\"Gentleman's Magazine\"",
                 "desc": "The Gentleman's Magazine, London, founded 1731."
             }
-        ]
+        ],
+        "image": "middlemarch"
     },
     "Mr. Gilfil's Love Story, Scenes of Clerical Life": {
         "characters": [
@@ -5396,7 +5404,8 @@
                 "desc": "Bath (Real),The town to which Captain Wybrow goes to court Miss Assher. A noted English watering-place in Somerset, fashionable in the eighteenth century."
             }
         ],
-        "misc": []
+        "misc": [],
+        "image": "mrgilfil"
     },
     "Romola": {
         "characters": [
@@ -7004,7 +7013,8 @@
                 "name": "\"All Things Journey, Sun and Moon\"",
                 "desc": "One of the songs of Juan, the minstrel."
             }
-        ]
+        ],
+        "image": "romola"
     },
     "Silas Marner": {
         "characters": [
@@ -7352,7 +7362,8 @@
                 "name": "\"Flaxen-Headed Ploughboy\"",
                 "desc": "Squire Cass's favourite tune, which Solomon Macey plays at the New Year's dance. This is the once popular song \"The Ploughboy\", beginning: \"The flaxen-headed cow-boy, as simple as may be\u2026 And next a merry ploughboy,\" etc. The words, by John O'Keefe, are included in his ballad-opera \"The Farmer\"; the music is by William Shield."
             }
-        ]
+        ],
+        "image": "silasmarner"
     },
     "The Lifted Veil": {
         "characters": [
@@ -7443,7 +7454,8 @@
                 "desc": "Oxford (Real),The English university where Arthur Donnithorne in Adam Bede, Rex Gascoigne and Mr. Lush in Daniel Deronda, Philip Debarry in Felix Holt, Latimer's brother, Alfred, in the Lifted Veil, and Mr. Stelling in Mill on the Floss have been educated."
             }
         ],
-        "misc": []
+        "misc": [],
+        "image": "liftedveil"
     },
     "The Mill on the Floss": {
         "characters": [
@@ -8099,7 +8111,8 @@
                 "name": "Salt",
                 "desc": "Supercargo of the vessel which takes out Bob Jakin's and Tom Tulliver's ventures; \"a briny chap.\""
             }
-        ]
+        ],
+        "image": "themill"
     },
     "The Sad Fortunes of the Reverend Amos Barton": {
         "characters": [
@@ -8491,7 +8504,8 @@
                 "name": "\"Old Maxum\"",
                 "desc": "A pauper patriarch of ninety-five, stone deaf."
             }
-        ]
+        ],
+        "image": "amosbarton"
     },
     "The Spanish Gypsy": {
         "characters": [
@@ -8731,7 +8745,8 @@
                 "name": "\"Brother, Hear, and Take the Curse\"",
                 "desc": "The Zincali's song in the Spanish Gypsy."
             }
-        ]
+        ],
+        "image": "spanishgypsy"
     },
     "A College Breakfast Party": {
         "characters": [
@@ -8757,7 +8772,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "A Minor Prophet": {
         "characters": [
@@ -8767,7 +8783,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "Agatha": {
         "characters": [
@@ -8793,7 +8810,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "agatha"
     },
     "Armgart": {
         "characters": [
@@ -8823,7 +8841,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "Brother and Sister": {
         "characters": [
@@ -8837,7 +8856,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "Character Name": {
         "characters": [
@@ -8847,7 +8867,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "Daniel Deronda, Romola": {
         "characters": [],
@@ -8861,7 +8882,8 @@
                 "desc": "Rome (Real),In Middlemarch Rome is the city to which Mr. and Mrs. Casaubon go on their wedding journey. In Romola Tito Melema twice goes there on political errands, and it is the centre of the agitation against Savonarola, under the Pope's leadership. Under Alexander the Sixth (1492-1503), who was Pope during the period of Romola, the will of the Pope was absolute in Rome, and the Papal states of which he was the head were one of the five great powers of Italy."
             }
         ],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "E.E.": {
         "characters": [
@@ -8883,7 +8905,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "E.E.--L.F.": {
         "characters": [
@@ -8897,7 +8920,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "How Lisa Loved the King": {
         "characters": [
@@ -8936,7 +8960,8 @@
                 "desc": "Palermo (Real),Scene of the poem \"How Lisa loved the King.\" \u2014Palermo, the capital and largest city of Sicily, on the north coast of the island. At the time of Lisa Sicily was ruled by King Pedro III, of Aragon, and his queen, Constance (daughter of Manfred of Beneventum), through whom Pedro had acquired his Sicilian rights."
             }
         ],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "Mr. Gilfil's Love Story": {
         "characters": [
@@ -9332,7 +9357,8 @@
                 "name": "\"Gentleman's Magazine\"",
                 "desc": "The Gentleman's Magazine, London, founded 1731."
             }
-        ]
+        ],
+        "image": "eliot"
     },
     "Stradivarius": {
         "characters": [
@@ -9350,7 +9376,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "The Death of Moses": {
         "characters": [
@@ -9368,7 +9395,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     },
     "The Legend of Jubal": {
         "characters": [
@@ -9394,6 +9422,8 @@
             }
         ],
         "places": [],
-        "misc": []
+        "misc": [],
+        "image": "eliot"
     }
+
 }
