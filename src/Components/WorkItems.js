@@ -37,7 +37,7 @@ function WorkItems(props) {
                     <Card.Img variant="top" src={item[1].image} />
                     <Card.Body>
                         <Card.Title>{item[1].name}</Card.Title>
-                        <Button onClick={() => handleExpand(item[0])}>Expand</Button>
+                        <Button onClick={() => handleExpand(item[0])} class="button-maroon">Expand</Button>
                     </Card.Body>
                 </Card>
             </Col>

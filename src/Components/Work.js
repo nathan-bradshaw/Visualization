@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Stack, Row, Col, Container, Collapse } from 'react-bootstrap';
 import './work.scss'
 import PopupBox from './PopupBox';
+import ShowMoreText from './ShowMoreText';
 
 function Work(props) {
     const [openPlaces, setOpenPlaces] = useState(false);
@@ -12,6 +13,7 @@ function Work(props) {
     const togglePlaces = () => setOpenPlaces(!openPlaces);
     const toggleCharacters = () => setOpenCharacters(!openCharacters);
     const toggleMisc = () => setOpenMisc(!openMisc);
+
     const imagePaths = {
         georgeeliot: require('../Images/georgeeliot.jpg'),
         adambede: require('../Images/adambede.jpg'),
@@ -32,6 +34,7 @@ function Work(props) {
         themill: require('../Images/themill.jpg')
     };
     const imagePath = imagePaths[props.data[1].image];
+
 
     const renderPopupBox = (items, toggleFunc) => {
         return (
@@ -58,6 +61,7 @@ function Work(props) {
                 <Row>
                     <Col>
                         <div className='imageholder m-3'>
+
                             <img src={imagePath} alt="Book cover" />
                         </div>
                     </Col>
@@ -67,7 +71,7 @@ function Work(props) {
                         </Row>
                         <Row className='m-2'></Row>
                         <Row>
-                            <h5>INSERT DESCRIPTION HERE</h5>
+                            <ShowMoreText text={props.data[1].desc} maxLength={150} />
                         </Row>
                     </Col>
                 </Row>

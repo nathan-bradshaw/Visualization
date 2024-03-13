@@ -32,7 +32,7 @@ function MobileMainScreen(props) {
         <Stack gap={3} className="work border rounded mb-0">
                 <Row className='imageholder m-1'>
                     <div >
-                    <img src={require('../Images/georgeeliot.jpg')} alt="This is a book cover"></img>
+                    <img src={require('../Files/georgeeliot.jpg')} alt="This is a book cover"></img>
                     </div>               
                 </Row>
                 <Row>
