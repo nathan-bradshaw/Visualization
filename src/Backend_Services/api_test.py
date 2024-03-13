@@ -59,6 +59,46 @@ def test_all(): #need to not include description
         if 'Title' not in i or 'Subject' not in i or 'Description' not in i or 'Source' not in i:
             dump.append(i)
     print(dump)
+
+# assign images
+def assign_image(works):
+    for title, work in works.items():
+        if title == "Middlemarch":
+            work['image'] = "middlemarch"
+        elif title == "Adam Bede":
+            work['image'] = "adambede"
+        elif title == "Brother Jacob":
+            work['image'] = "brotherjacob"
+        elif title == "Daniel Deronda":
+            work['image'] = "danielderonda"
+        elif title == "Felix Holt, the Radical":
+            work['image'] = "felixholt"
+        elif title == "Impressions of Theophrastus Such":
+            work['image'] = "impressions"
+        elif title == "Janet's Repentance":
+            work['image'] = "janetsrepentance"
+        elif title == "Mr. Gilfil's Love Story, Scenes of Clerical Life":
+            work['image'] = "mrgilfil"
+        elif title == "Romola":
+            work['image'] = "romola"
+        elif title == "Silas Marner":
+            work['image'] = "silasmarner"
+        elif title == "The Lifted Veil":
+            work['image'] = "liftedveil"
+        elif title == "The Mill on the Floss":
+            work['image'] = "themill"
+        elif title == "The Sad Fortunes of the Reverend Amos Barton":
+            work['image'] = "amosbarton"
+        elif title == "The Spanish Gypsy":
+            work['image'] = "spanishgypsy"
+        elif title == "Agatha":
+            work['image'] = "agatha"
+        else:
+            work['image'] = "eliot"
+
+
+
+
     
 #we want an array of work items that contain two arrays of place items or character items that are a name and a description each
 def organize_by_work():
@@ -93,7 +133,8 @@ def organize_by_work():
         work = {
             "characters": [],
             "places": [],
-            "misc": []
+            "misc": [],
+            "image": []
         }
         final[w] = work
     for i in data:
@@ -120,6 +161,7 @@ def organize_by_work():
                             'desc': i['Description']
                         }
                         final[w]['misc'].append(item)
+            assign_image(final)
         else:
             dump.append(i)
     with open('final.json', 'w') as file:
