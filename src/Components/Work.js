@@ -13,9 +13,28 @@ function Work(props) {
     const togglePlaces = () => setOpenPlaces(!openPlaces);
     const toggleCharacters = () => setOpenCharacters(!openCharacters);
     const toggleMisc = () => setOpenMisc(!openMisc);
-    const images = {
-        'Adam Bede': require('../Files/georgeeliot.jpg')
-    }
+
+    const imagePaths = {
+        georgeeliot: require('../Images/georgeeliot.jpg'),
+        adambede: require('../Images/adambede.jpg'),
+        agatha: require('../Images/agatha.jpg'),
+        amosbarton: require('../Images/amosbarton.jpg'),
+        brotherjacob: require('../Images/brotherjacob.jpg'),
+        danielderonda: require('../Images/danielderonda.jpg'),
+        eliot: require('../Images/eliot.jpg'),
+        felixholt: require('../Images/felixholt.jpg'),
+        impressions: require('../Images/impressions.jpg'),
+        janetsrepentance: require('../Images/janetsrepentance.jpg'),
+        liftedveil: require('../Images/liftedveil.jpg'),
+        middlemarch: require('../Images/middlemarch.jpg'),
+        mrgilfil: require('../Images/mrgilfil.jpg'),
+        romola: require('../Images/romola.jpg'),
+        silasmarner: require('../Images/silasmarner.jpg'),
+        spanishgypsy: require('../Images/spanishgypsy.jpg'),
+        themill: require('../Images/themill.jpg')
+    };
+    const imagePath = imagePaths[props.data[1].image];
+
 
     const renderPopupBox = (items, toggleFunc) => {
         return (
@@ -42,7 +61,8 @@ function Work(props) {
                 <Row>
                     <Col>
                         <div className='imageholder m-3'>
-                            <img src={images['Adam Bede']} alt="Book cover" />
+
+                            <img src={imagePath} alt="Book cover" />
                         </div>
                     </Col>
                     <Col>
