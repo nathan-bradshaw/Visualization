@@ -27,7 +27,7 @@ function MainScreen() {
         <Container >
             
             <Row className=' p-4'>
-                <Col className='border rounded mb-0 heading m-0'><h1>Dictionary of George Eliot's People and Places</h1></Col>
+                <Col className='border rounded mb-0 heading m-0'><h1>George Eliot's Dictionary of Places and People</h1></Col>
             </Row>
             <Row className='m-3'></Row>
             <Row> 
