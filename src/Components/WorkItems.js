@@ -34,9 +34,8 @@ function WorkItems(props) {
         return (
             <Col key={item[0]} md={6} className="mb-3">
                 <Card className="h-100">
-                    <Card.Img variant="top" src={item[1].image} />
                     <Card.Body>
-                        <Card.Title>{item[1].name}</Card.Title>
+                        <Card.Title>{item[0]}</Card.Title>
                         <Button onClick={() => handleExpand(item[0])} class="button-maroon">Expand</Button>
                     </Card.Body>
                 </Card>
