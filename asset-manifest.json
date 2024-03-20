@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/visualization%20/static/css/main.2929fade.css",
+    "main.js": "/visualization%20/static/js/main.d7bdae5a.js",
+    "static/media/georgeeliot.jpg": "/visualization%20/static/media/georgeeliot.0ebd6ec9f9e526f54c12.jpg",
+    "static/media/romola.jpg": "/visualization%20/static/media/romola.4fc04e2758d7b51b8350.jpg",
+    "static/media/themill.jpg": "/visualization%20/static/media/themill.a99cd76947523418b5a8.jpg",
+    "static/media/amosbarton.jpg": "/visualization%20/static/media/amosbarton.573c48fd311072f9aa77.jpg",
+    "static/media/silasmarner.jpg": "/visualization%20/static/media/silasmarner.3c302f4a15eedb3f1c62.jpg",
+    "static/media/mrgilfil.jpg": "/visualization%20/static/media/mrgilfil.161eb18be5a23f622ae3.jpg",
+    "static/media/felixholt.jpg": "/visualization%20/static/media/felixholt.b0814efd4ba5c17e6293.jpg",
+    "static/media/adambede.jpg": "/visualization%20/static/media/adambede.f69565092cb3ec9b4621.jpg",
+    "static/media/danielderonda.jpg": "/visualization%20/static/media/danielderonda.cf5bc13496d329a05c7c.jpg",
+    "static/media/spanishgypsy.jpg": "/visualization%20/static/media/spanishgypsy.539a7557148c38040205.jpg",
+    "static/media/agatha.jpg": "/visualization%20/static/media/agatha.d6cbbb084c93b10de838.jpg",
+    "static/media/janetsrepentance.jpg": "/visualization%20/static/media/janetsrepentance.bafdc0d5b19bc27ce208.jpg",
+    "static/media/liftedveil.jpg": "/visualization%20/static/media/liftedveil.c76a85d9e56cb76a4f4a.jpg",
+    "static/media/middlemarch.jpg": "/visualization%20/static/media/middlemarch.7df0c05f0e153f87699c.jpg",
+    "static/media/impressions.jpg": "/visualization%20/static/media/impressions.b4bf62d8810fda90cd8a.jpg",
+    "static/media/brotherjacob.jpg": "/visualization%20/static/media/brotherjacob.bd37b6ccb5a5045840d6.jpg",
+    "index.html": "/visualization%20/index.html",
+    "main.2929fade.css.map": "/visualization%20/static/css/main.2929fade.css.map",
+    "main.d7bdae5a.js.map": "/visualization%20/static/js/main.d7bdae5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2929fade.css",
+    "static/js/main.d7bdae5a.js"
+  ]
+}
