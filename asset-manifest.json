@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Visualization%20/static/css/main.2929fade.css",
-    "main.js": "/Visualization%20/static/js/main.32d72908.js",
-    "static/media/georgeeliot.jpg": "/Visualization%20/static/media/georgeeliot.0ebd6ec9f9e526f54c12.jpg",
-    "static/media/romola.jpg": "/Visualization%20/static/media/romola.4fc04e2758d7b51b8350.jpg",
-    "static/media/themill.jpg": "/Visualization%20/static/media/themill.a99cd76947523418b5a8.jpg",
-    "static/media/amosbarton.jpg": "/Visualization%20/static/media/amosbarton.573c48fd311072f9aa77.jpg",
-    "static/media/silasmarner.jpg": "/Visualization%20/static/media/silasmarner.3c302f4a15eedb3f1c62.jpg",
-    "static/media/mrgilfil.jpg": "/Visualization%20/static/media/mrgilfil.161eb18be5a23f622ae3.jpg",
-    "static/media/felixholt.jpg": "/Visualization%20/static/media/felixholt.b0814efd4ba5c17e6293.jpg",
-    "static/media/adambede.jpg": "/Visualization%20/static/media/adambede.f69565092cb3ec9b4621.jpg",
-    "static/media/danielderonda.jpg": "/Visualization%20/static/media/danielderonda.cf5bc13496d329a05c7c.jpg",
-    "static/media/spanishgypsy.jpg": "/Visualization%20/static/media/spanishgypsy.539a7557148c38040205.jpg",
-    "static/media/agatha.jpg": "/Visualization%20/static/media/agatha.d6cbbb084c93b10de838.jpg",
-    "static/media/janetsrepentance.jpg": "/Visualization%20/static/media/janetsrepentance.bafdc0d5b19bc27ce208.jpg",
-    "static/media/liftedveil.jpg": "/Visualization%20/static/media/liftedveil.c76a85d9e56cb76a4f4a.jpg",
-    "static/media/middlemarch.jpg": "/Visualization%20/static/media/middlemarch.7df0c05f0e153f87699c.jpg",
-    "static/media/impressions.jpg": "/Visualization%20/static/media/impressions.b4bf62d8810fda90cd8a.jpg",
-    "static/media/brotherjacob.jpg": "/Visualization%20/static/media/brotherjacob.bd37b6ccb5a5045840d6.jpg",
-    "index.html": "/Visualization%20/index.html",
-    "main.2929fade.css.map": "/Visualization%20/static/css/main.2929fade.css.map",
-    "main.32d72908.js.map": "/Visualization%20/static/js/main.32d72908.js.map"
+    "main.css": "/Visualization/static/css/main.2929fade.css",
+    "main.js": "/Visualization/static/js/main.1531961a.js",
+    "static/media/georgeeliot.jpg": "/Visualization/static/media/georgeeliot.0ebd6ec9f9e526f54c12.jpg",
+    "static/media/romola.jpg": "/Visualization/static/media/romola.4fc04e2758d7b51b8350.jpg",
+    "static/media/themill.jpg": "/Visualization/static/media/themill.a99cd76947523418b5a8.jpg",
+    "static/media/amosbarton.jpg": "/Visualization/static/media/amosbarton.573c48fd311072f9aa77.jpg",
+    "static/media/silasmarner.jpg": "/Visualization/static/media/silasmarner.3c302f4a15eedb3f1c62.jpg",
+    "static/media/mrgilfil.jpg": "/Visualization/static/media/mrgilfil.161eb18be5a23f622ae3.jpg",
+    "static/media/felixholt.jpg": "/Visualization/static/media/felixholt.b0814efd4ba5c17e6293.jpg",
+    "static/media/adambede.jpg": "/Visualization/static/media/adambede.f69565092cb3ec9b4621.jpg",
+    "static/media/danielderonda.jpg": "/Visualization/static/media/danielderonda.cf5bc13496d329a05c7c.jpg",
+    "static/media/spanishgypsy.jpg": "/Visualization/static/media/spanishgypsy.539a7557148c38040205.jpg",
+    "static/media/agatha.jpg": "/Visualization/static/media/agatha.d6cbbb084c93b10de838.jpg",
+    "static/media/janetsrepentance.jpg": "/Visualization/static/media/janetsrepentance.bafdc0d5b19bc27ce208.jpg",
+    "static/media/liftedveil.jpg": "/Visualization/static/media/liftedveil.c76a85d9e56cb76a4f4a.jpg",
+    "static/media/middlemarch.jpg": "/Visualization/static/media/middlemarch.7df0c05f0e153f87699c.jpg",
+    "static/media/impressions.jpg": "/Visualization/static/media/impressions.b4bf62d8810fda90cd8a.jpg",
+    "static/media/brotherjacob.jpg": "/Visualization/static/media/brotherjacob.bd37b6ccb5a5045840d6.jpg",
+    "index.html": "/Visualization/index.html",
+    "main.2929fade.css.map": "/Visualization/static/css/main.2929fade.css.map",
+    "main.1531961a.js.map": "/Visualization/static/js/main.1531961a.js.map"
   },
   "entrypoints": [
     "static/css/main.2929fade.css",
-    "static/js/main.32d72908.js"
+    "static/js/main.1531961a.js"
   ]
 }
