@@ -170,6 +170,7 @@ def organize_by_work():
     #COULD CHANGE SCENES OF CLERICAL LIFE TITLES HERE 
     final['"Janet\'s Repentance" [<i>Scenes of Clerical Life</i>]'] = final.pop("Janet's Repentance")
     final['"The Sad Fortunes of the Reverend Amos Barton" [<i>Scenes of Clerical Life</i>]'] = final.pop("The Sad Fortunes of the Reverend Amos Barton")
+    final['"Mr. Gilfil\'s Love Story" [<i>Scenes of Clerical Life</i>]'] = final.pop("Mr. Gilfil's Love Story, Scenes of Clerical Life")
     with open('final.json', 'w') as file:
         json.dump(final, file, indent=4)    
 
