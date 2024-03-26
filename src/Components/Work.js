@@ -67,7 +67,7 @@ function Work(props) {
                     </Col>
                     <Col>
                         <Row>
-                            <h2 className='m-2 p-2'><p className='p-2 m-2'>{props.data[0]}</p></h2>
+                            <h2 className='m-2 p-2'><p className='p-2 m-2' dangerouslySetInnerHTML={{ __html: props.data[0] }}></p></h2>
                         </Row>
                         <Row className='m-2'></Row>
                         <Row>
