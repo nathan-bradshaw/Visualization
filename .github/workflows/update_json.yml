@@ -1,0 +1,33 @@
+name: Update JSON Files
+
+on:
+  schedule:
+    - cron: '0 */2 * * *' #Runs every two hours
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10' 
+
+    - name: Install Dependencies
+      run: |
+        pip install requests 
+
+    - name: Run Script
+      run: python src/Backend_Services/api_test.py 
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'Spencer Dunn'
+        git config --global user.email 'sfd0014@auburn.edu'
+        git add . 
+        git commit -m "Update JSON data"
+        git push
