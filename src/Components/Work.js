@@ -88,7 +88,7 @@ function Work(props) {
                 <Row>
 
                     <Col>
-                        {renderPopupBox({ name: 'Misc', data: props.data[1].misc, open: openMisc }, toggleMisc)}
+                        {renderPopupBox({ name: 'Other Named Entities', data: props.data[1].misc, open: openMisc }, toggleMisc)}
                     </Col>
 
                 </Row>
