@@ -1,4 +1,6 @@
+@import "bootstrap";
 $main_color :#eeeeee;
+$button_color : #800000;
 .list-empty{
     height:100vh;
     width:100%;
@@ -7,7 +9,7 @@ $main_color :#eeeeee;
     text-align: center;
 }
 .button-maroon {
-    background-color: #800000; /* Maroon color */
+    background-color: #800000 !important; /* Maroon color */
     color: white; /* White text */
     border: none; /* No border */
     padding: 10px 20px; /* Top and bottom padding: 10px, Right and left padding: 20px */
@@ -24,3 +26,11 @@ $main_color :#eeeeee;
   .button-maroon:hover {
     background-color: #a52a2a; /* Slightly lighter maroon on hover */
   }
+
+  .btn-primary {
+    @include button-variant($button_color, darken($button_color, 7.5%), darken($button_color, 10%), lighten($button_color,5%), lighten($button_color, 10%), darken($button_color,30%));
+}
+
+.btn-outline-primary {
+  @include button-outline-variant($button_color, #222222, lighten($button_color,5%), $button_color);
+}

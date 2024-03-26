@@ -105,7 +105,7 @@ def organize_by_work():
     file = open('data.json')
     data = json.load(file)
     #compile list of works ***MIGHT WANT TO DELETE THIS SECTION FOR A FIXED LIST OF WORK TITLES INSTEAD
-    works = ["Adam Bede","Brother Jacob", "Daniel Deronda","Felix Holt, the Radical", "Impressions of Theophrastus Such","Janet's Repentance", "Middlemarch", "Mr. Gilfil's Love Story, Scenes of Clerical Life", "Mr. Gilfil's Love Story","Romola", "Silas Marner", "The Lifted Veil", "The Mill on the Floss", "The Sad Fortunes of the Reverend Amos Barton", "The Spanish Gypsy"]
+    works = ["Adam Bede","Brother Jacob", "Daniel Deronda","Felix Holt, the Radical", "Impressions of Theophrastus Such","Janet's Repentance", "Middlemarch", "Mr. Gilfil's Love Story, Scenes of Clerical Life","Romola", "Silas Marner", "The Lifted Veil", "The Mill on the Floss", "The Sad Fortunes of the Reverend Amos Barton", "The Spanish Gypsy"]
     dump = []
     final = {}
     #Need to check Mr. Gilfil's Love Story and all other ones 
@@ -168,14 +168,14 @@ def organize_by_work():
             dump.append(i)
     link_descriptions(final)
     #COULD CHANGE SCENES OF CLERICAL LIFE TITLES HERE 
-    final["Janet's Repentance, Scenes of Clerical Life"] = final.pop("Janet's Repentance")
-    final["The Sad Fortunes of the Reverend Amos Barton, Scenes of Clerical Life"] = final.pop("The Sad Fortunes of the Reverend Amos Barton")
+    final['"Janet\'s Repentance" [<i>Scenes of Clerical Life</i>]'] = final.pop("Janet's Repentance")
+    final['"The Sad Fortunes of the Reverend Amos Barton" [<i>Scenes of Clerical Life</i>]'] = final.pop("The Sad Fortunes of the Reverend Amos Barton")
     with open('final.json', 'w') as file:
         json.dump(final, file, indent=4)    
 
 def link_descriptions(data):
-    file = open('work_desc.json')
-    descs = json.load(file)
+    with open('work_desc.json', encoding='utf-8') as file:
+        descs = json.load(file)
     for w in descs:
         data[w]['desc'] = descs[w]
     
