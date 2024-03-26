@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Visualization/static/css/main.2929fade.css",
-    "main.js": "/Visualization/static/js/main.303ecfb3.js",
+    "main.css": "/Visualization/static/css/main.a6f622df.css",
+    "main.js": "/Visualization/static/js/main.0f4d6190.js",
     "static/media/georgeeliot.jpg": "/Visualization/static/media/georgeeliot.0ebd6ec9f9e526f54c12.jpg",
     "static/media/romola.jpg": "/Visualization/static/media/romola.4fc04e2758d7b51b8350.jpg",
     "static/media/themill.jpg": "/Visualization/static/media/themill.a99cd76947523418b5a8.jpg",
@@ -19,11 +19,11 @@
     "static/media/impressions.jpg": "/Visualization/static/media/impressions.b4bf62d8810fda90cd8a.jpg",
     "static/media/brotherjacob.jpg": "/Visualization/static/media/brotherjacob.bd37b6ccb5a5045840d6.jpg",
     "index.html": "/Visualization/index.html",
-    "main.2929fade.css.map": "/Visualization/static/css/main.2929fade.css.map",
-    "main.303ecfb3.js.map": "/Visualization/static/js/main.303ecfb3.js.map"
+    "main.a6f622df.css.map": "/Visualization/static/css/main.a6f622df.css.map",
+    "main.0f4d6190.js.map": "/Visualization/static/js/main.0f4d6190.js.map"
   },
   "entrypoints": [
-    "static/css/main.2929fade.css",
-    "static/js/main.303ecfb3.js"
+    "static/css/main.a6f622df.css",
+    "static/js/main.0f4d6190.js"
   ]
 }
