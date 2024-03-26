@@ -36,7 +36,7 @@ function WorkItems(props) {
                 <Card className="h-100">
                     <Card.Body>
                         <Card.Title>{item[0]}</Card.Title>
-                        <Button onClick={() => handleExpand(item[0])} class="button-maroon">Expand</Button>
+                        <Button onClick={() => handleExpand(item[0])} className="button-maroon">Expand</Button>
                     </Card.Body>
                 </Card>
             </Col>

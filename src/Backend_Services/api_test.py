@@ -174,8 +174,8 @@ def organize_by_work():
         json.dump(final, file, indent=4)    
 
 def link_descriptions(data):
-    file = open('work_desc.json')
-    descs = json.load(file)
+    with open('work_desc.json', encoding='utf-8') as file:
+        descs = json.load(file)
     for w in descs:
         data[w]['desc'] = descs[w]
     

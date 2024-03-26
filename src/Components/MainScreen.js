@@ -25,10 +25,6 @@ function MainScreen() {
     return (
         <div className='main ' >
         <Container >
-            
-            <Row className=' p-4'>
-                <Col className='border rounded mb-0 heading m-0'><h1>George Eliot's Dictionary of Places and People</h1></Col>
-            </Row>
             <Row className='m-3'></Row>
             <Row> 
                 
