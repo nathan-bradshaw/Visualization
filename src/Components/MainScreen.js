@@ -14,11 +14,9 @@ function MainScreen() {
     function handleChange(e) {
         const value = e.target.value;
         if (value === "") {
-            //setList(data);
             setSuggestions([]);
         } else {
             const res = search(value);
-            //setList(res);
 
             // Extracting suggestions from the result object
             const suggestedWorks = Object.keys(res).reduce((accumulator, workName) => {
@@ -67,7 +65,7 @@ function MainScreen() {
             <ul className="suggestions">
                 {suggestions.map((suggestion, index) => (
                     <li key={index} onClick={() => handleSuggestionClick(suggestion)}>
-                        {suggestion.path}
+                        <span dangerouslySetInnerHTML={{ __html: suggestion.path }} />
                     </li>
                 ))}
             </ul>
@@ -93,7 +91,7 @@ function MainScreen() {
                     </Col>
                 </Row>
                 <Row className='m-4'></Row>
-                <Row className=' d-flex justify-content-center'>
+                <Row className='d-flex justify-content-center'>
                     <WorkItems data={list} />
                 </Row>
             </Container>
@@ -103,7 +101,7 @@ function MainScreen() {
                     <Modal.Title>{selectedSuggestion && selectedSuggestion.name}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <p>{selectedSuggestion && selectedSuggestion.path}</p>
+                    <p dangerouslySetInnerHTML={{ __html: selectedSuggestion && selectedSuggestion.path }}></p>
                     <p>{selectedSuggestion && selectedSuggestion.description}</p>
                 </Modal.Body>
                 <Modal.Footer>
