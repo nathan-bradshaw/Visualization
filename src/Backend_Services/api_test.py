@@ -96,9 +96,6 @@ def assign_image(works):
         else:
             work['image'] = "eliot"
 
-
-
-
     
 #we want an array of work items that contain two arrays of place items or character items that are a name and a description each
 def organize_by_work():
@@ -168,6 +165,17 @@ def organize_by_work():
             dump.append(i)
     link_descriptions(final)
     #COULD CHANGE SCENES OF CLERICAL LIFE TITLES HERE 
+    final['<i>Adam Bede</i>'] = final.pop("Adam Bede")
+    final['<i>Brother Jacob</i>'] = final.pop("Brother Jacob")
+    final['<i>Daniel Deronda</i>'] = final.pop("Daniel Deronda")
+    final['<i>Felix Holt, the Radical</i>'] = final.pop("Felix Holt, the Radical")
+    final['<i>Impressions of Theophrastus Such</i>'] = final.pop("Impressions of Theophrastus Such")
+    final['<i>Middlemarch</i>'] = final.pop("Middlemarch")
+    final['<i>Romola</i>'] = final.pop("Romola")
+    final['<i>Silas Marner</i>'] = final.pop("Silas Marner")
+    final['<i>The Lifted Veil</i>'] = final.pop("The Lifted Veil")
+    final['<i>The Mill on the Floss</i>'] = final.pop("The Mill on the Floss")
+    final['<i>The Spanish Gypsy</i>'] = final.pop("The Spanish Gypsy")
     final['"Janet\'s Repentance" [<i>Scenes of Clerical Life</i>]'] = final.pop("Janet's Repentance")
     final['"The Sad Fortunes of the Reverend Amos Barton" [<i>Scenes of Clerical Life</i>]'] = final.pop("The Sad Fortunes of the Reverend Amos Barton")
     final['"Mr. Gilfil\'s Love Story" [<i>Scenes of Clerical Life</i>]'] = final.pop("Mr. Gilfil's Love Story, Scenes of Clerical Life")
