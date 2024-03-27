@@ -2,7 +2,7 @@ var word = require("./final.json");
 var data = word;
 
 export function search(str) {
-    const lst = [];
+    const resultObj = {}; // Use an object instead of an array
     const indices = new Set();
 
     for (const workName in data) {
@@ -37,7 +37,8 @@ export function search(str) {
     }
 
     for (const workName of indices.values()) {
-        lst.push(data[workName]);
+        resultObj[workName] = data[workName]; // Assign data to the object using workName as key
     }
-    return lst;
+    console.log(resultObj);
+    return resultObj;
 }
