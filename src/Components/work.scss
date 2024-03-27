@@ -38,3 +38,15 @@ float:left;
     color: black; /* Black text color on hover/focus */
     text-decoration: underline; /* Ensures underline remains on hover */
   }
+
+  .suggestions {
+    position: absolute;
+    z-index: 9999; /* Ensure the suggestions appear above other elements */
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px; /* Set a maximum height for scrollability */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    width: calc(26%); /* Adjust width as needed */
+    margin-top: 8px; /* Adjust top margin as needed */
+  }
+  
