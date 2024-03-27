@@ -35,7 +35,7 @@ function WorkItems(props) {
             <Col key={item[0]} md={6} className="mb-3">
                 <Card className="h-100">
                     <Card.Body>
-                        <Card.Title>{item[0]}</Card.Title>
+                        <Card.Title dangerouslySetInnerHTML={{ __html: item[0] }} />
                         <Button onClick={() => handleExpand(item[0])} className="button-maroon">Expand</Button>
                     </Card.Body>
                 </Card>
