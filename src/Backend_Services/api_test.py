@@ -27,7 +27,7 @@ def pull_json():
 
             
         # Save the data to a JSON file
-        with open('data.json', 'w') as file:
+        with open('src/Backend_Services/data.json', 'w') as file:
             json.dump(data, file, indent=4)
             
         print("Succeeded")
@@ -35,7 +35,7 @@ def pull_json():
         print(f'Failed. Status code: {response.status_code}')
         
 def test_relation():
-    file = open('data.json')
+    file = open('src/Backend_Services/data.json')
     data = json.load(file)
     for i in data:
         if 'Relation' in i:
@@ -43,7 +43,7 @@ def test_relation():
                 print(i['Relation'] + "\n" + i['Title'])
 
 def test_subject():
-    file = open('data.json')
+    file = open('src/Backend_Services/data.json')
     data = json.load(file)
     subjects = []
     for i in data:
@@ -52,7 +52,7 @@ def test_subject():
     print(subjects)
 
 def test_all(): #need to not include description
-    file = open('data.json')
+    file = open('src/Backend_Services/data.json')
     data = json.load(file)
     dump = []
     for i in data:
@@ -99,7 +99,7 @@ def assign_image(works):
     
 #we want an array of work items that contain two arrays of place items or character items that are a name and a description each
 def organize_by_work():
-    file = open('data.json')
+    file = open('src/Backend_Services/data.json')
     data = json.load(file)
     #compile list of works ***MIGHT WANT TO DELETE THIS SECTION FOR A FIXED LIST OF WORK TITLES INSTEAD
     works = ["Adam Bede","Brother Jacob", "Daniel Deronda","Felix Holt, the Radical", "Impressions of Theophrastus Such","Janet's Repentance", "Middlemarch", "Mr. Gilfil's Love Story, Scenes of Clerical Life","Romola", "Silas Marner", "The Lifted Veil", "The Mill on the Floss", "The Sad Fortunes of the Reverend Amos Barton", "The Spanish Gypsy"]
@@ -179,11 +179,11 @@ def organize_by_work():
     final['"Janet\'s Repentance" [<i>Scenes of Clerical Life</i>]'] = final.pop("Janet's Repentance")
     final['"The Sad Fortunes of the Reverend Amos Barton" [<i>Scenes of Clerical Life</i>]'] = final.pop("The Sad Fortunes of the Reverend Amos Barton")
     final['"Mr. Gilfil\'s Love Story" [<i>Scenes of Clerical Life</i>]'] = final.pop("Mr. Gilfil's Love Story, Scenes of Clerical Life")
-    with open('final.json', 'w') as file:
+    with open('src/Backend_Services/final.json', 'w') as file:
         json.dump(final, file, indent=4)    
 
 def link_descriptions(data):
-    with open('work_desc.json', encoding='utf-8') as file:
+    with open('src/Backend_Services/work_desc.json', encoding='utf-8') as file:
         descs = json.load(file)
     for w in descs:
         data[w]['desc'] = descs[w]
