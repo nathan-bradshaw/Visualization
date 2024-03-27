@@ -31,7 +31,7 @@ function MainScreen() {
                 <Col md={9}></Col>
                 <Col md = {3}> 
                     <div>
-                    {<input placeholder="Search..........."  type="search"  onChange={handleChange}  className='rounded-3 m-1  border-0 w-100 search' />}
+                    {<input placeholder="Search"  type="search"  onChange={handleChange}  className='rounded-3 m-1  border-0 w-100 search' />}
                     </div>   
 
                 </Col>
