@@ -46,7 +46,7 @@ function Work(props) {
                     <div className='center'>
                         {items.data.map((item, index) => (
                             <p key={index} className='m-2 items hover-zoom'>
-                                <PopupBox text={item.desc} heading={item.name} />
+                                <PopupBox text={item.desc} heading={item.name}/>
                             </p>
                         ))}
                     </div>
