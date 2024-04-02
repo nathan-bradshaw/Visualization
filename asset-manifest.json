@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Visualization/static/css/main.039e1d4f.css",
-    "main.js": "/Visualization/static/js/main.7ff65ef3.js",
+    "main.css": "/Visualization/static/css/main.99380e91.css",
+    "main.js": "/Visualization/static/js/main.cab50526.js",
     "static/media/georgeeliot.jpg": "/Visualization/static/media/georgeeliot.0ebd6ec9f9e526f54c12.jpg",
     "static/media/romola.jpg": "/Visualization/static/media/romola.4fc04e2758d7b51b8350.jpg",
     "static/media/themill.jpg": "/Visualization/static/media/themill.a99cd76947523418b5a8.jpg",
@@ -19,11 +19,11 @@
     "static/media/impressions.jpg": "/Visualization/static/media/impressions.b4bf62d8810fda90cd8a.jpg",
     "static/media/brotherjacob.jpg": "/Visualization/static/media/brotherjacob.bd37b6ccb5a5045840d6.jpg",
     "index.html": "/Visualization/index.html",
-    "main.039e1d4f.css.map": "/Visualization/static/css/main.039e1d4f.css.map",
-    "main.7ff65ef3.js.map": "/Visualization/static/js/main.7ff65ef3.js.map"
+    "main.99380e91.css.map": "/Visualization/static/css/main.99380e91.css.map",
+    "main.cab50526.js.map": "/Visualization/static/js/main.cab50526.js.map"
   },
   "entrypoints": [
-    "static/css/main.039e1d4f.css",
-    "static/js/main.7ff65ef3.js"
+    "static/css/main.99380e91.css",
+    "static/js/main.cab50526.js"
   ]
 }
