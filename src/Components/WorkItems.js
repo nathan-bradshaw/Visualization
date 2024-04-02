@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './workitems.scss';
 import Work from './Work';
-import MobileMainScreen from './MobileMainScreen';
 
 function WorkItems(props) {
     const [width, setWidth] = useState(window.innerWidth);
