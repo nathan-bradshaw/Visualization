@@ -1,5 +1,5 @@
 // Work.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Stack, Row, Col, Container, Collapse } from 'react-bootstrap';
 import './work.scss'
 import PopupBox from './PopupBox';
@@ -13,6 +13,16 @@ function Work(props) {
     const togglePlaces = () => setOpenPlaces(!openPlaces);
     const toggleCharacters = () => setOpenCharacters(!openCharacters);
     const toggleMisc = () => setOpenMisc(!openMisc);
+    const [width, setWidth] = useState(window.innerWidth);
+
+    function handleResize() {
+        setWidth(window.innerWidth);
+    }
+
+    useEffect(() => {
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     const imagePaths = {
         georgeeliot: require('../Images/georgeeliot.jpg'),
@@ -59,12 +69,19 @@ function Work(props) {
         <Container fluid>
             <Stack gap={3} className="work border rounded mb-0">
                 <Row>
+                    {width < 768 ?
+                    <div className='imageholder m-3' style={{ textalign: 'center'}}>
+
+                    <img src={imagePath} alt="Book cover" style={{ width: '250px'}}/>
+                    </div>
+                    :
                     <Col>
                         <div className='imageholder m-3'>
 
                             <img src={imagePath} alt="Book cover" />
                         </div>
                     </Col>
+                    }
                     <Col>
                         <Row>
                             <h2 className='m-2 p-2'><p className='p-2 m-2' dangerouslySetInnerHTML={{ __html: props.data[0] }}></p></h2>

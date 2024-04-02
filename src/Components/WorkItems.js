@@ -1,4 +1,3 @@
-// WorkItems.js
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './workitems.scss';
@@ -22,38 +21,29 @@ function WorkItems(props) {
         setExpandedItem(expandedItem === itemKey ? null : itemKey);
     };
 
-    const renderMobileMainScreen = (item) => {
-        return (
-            <Row key={item.id} className='ml-5 justify-content-center'>
-                <MobileMainScreen data={item} />
-            </Row>
-        );
-    };
-
-    const renderCard = (item) => {
-        return (
-            <Col key={item[0]} md={6} className="mb-3">
-                <Card className="h-100">
-                    <Card.Body>
-                        <Card.Title dangerouslySetInnerHTML={{ __html: item[0] }} />
-                        <Button onClick={() => handleExpand(item[0])} className="button-maroon">Expand</Button>
-                    </Card.Body>
-                </Card>
-            </Col>
-        );
-    };
-
     const renderWorkItems = () => {
         return Object.entries(props.data).map((item) => (
             <React.Fragment key={item[0]}>
-                {expandedItem === item[0] ? <Work data={item} /> : renderCard(item)}
+                <Col md={6} className="mb-3">
+                    <Card className="h-100">
+                        <Card.Body>
+                            <Card.Title dangerouslySetInnerHTML={{ __html: item[0] }} />
+                            <Button onClick={() => handleExpand(item[0])} className="button-maroon">Expand</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                {expandedItem === item[0] && (
+                    <Col md={12} className="mb-3">
+                        <Work data={item} />
+                    </Col>
+                )}
             </React.Fragment>
         ));
     };
 
     return (
         <Container fluid>
-            {width < 768 ? renderMobileMainScreen(props.data) : <Row className='justify-content-center'>{renderWorkItems()}</Row>}
+            <Row className='justify-content-center'>{renderWorkItems()}</Row>
             {Object.entries(props.data).length === 0 &&
                 <div className='list-empty text-center'><h2>No ITEMS Available</h2></div>
             }
