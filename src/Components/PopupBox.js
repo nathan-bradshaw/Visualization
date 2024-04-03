@@ -10,8 +10,12 @@ function PopupBox(props){
         <Popup  className="m-2" trigger={<p> {props.heading}</p>} position=" center center" modal>
             <Container className='popup  m-2 border  rounded-1'>
                 <Row className='m-3'>
-                    <strong>{props.heading}</strong>
-                    {props.text}
+                    <Col xs={12}>
+                        <strong>{props.heading}</strong>
+                    </Col>
+                    <Col xs={12}>
+                        {props.text}
+                    </Col>
                 </Row>
             </Container>
         </Popup>
