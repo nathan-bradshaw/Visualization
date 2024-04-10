@@ -466,18 +466,6 @@
                 "desc": "Mr. Irwine's brown setter."
             },
             {
-                "name": "\"When the Heart of a Man is Oppressed with Care\" (Real)",
-                "desc": "Arthur Donnithorne's favourite air from the \"Beggar's Opera\". A song in Gay's Beggar's Opera beginning \"If the heart of a man is depressed with cares\"."
-            },
-            {
-                "name": "\"Harvest-Song\" (Real)",
-                "desc": "Song sung at the Harvest Supper at the Hall Farm. \"Now the great ceremony of the evening was to begin--the harvest-song, in which every man must join; he might be in tune, if he liked to be singular, but must not sit with closed lips.\" The Harvest Song, \"Here's a health unto our master,\" was common in the Midland counties. There are several versions with slight differences in the words."
-            },
-            {
-                "name": "\"Beggar's Opera\" (Real)",
-                "desc": "An opera, with libretto by John Gay, written 1727."
-            },
-            {
                 "name": "Gyp",
                 "desc": "Adam Bede's sheep-dog."
             },
@@ -764,6 +752,18 @@
             {
                 "name": "\"Brimstone\"",
                 "desc": "A Methodist brickmaker and converted poacher. Pupil in Bartle Massey's night school."
+            },
+            {
+                "name": "\"When the Heart of a Man is Oppressed with Care\" (Real)",
+                "desc": "Arthur Donnithorne's favourite air from the \"Beggar's Opera\". A song in Gay's Beggar's Opera beginning \"If the heart of a man is depressed with cares\"."
+            },
+            {
+                "name": "\"Harvest-Song\" (Real)",
+                "desc": "Song sung at the Harvest Supper at the Hall Farm. \"Now the great ceremony of the evening was to begin--the harvest-song, in which every man must join; he might be in tune, if he liked to be singular, but must not sit with closed lips.\" The Harvest Song, \"Here's a health unto our master,\" was common in the Midland counties. There are several versions with slight differences in the words."
+            },
+            {
+                "name": "\"Beggar's Opera\" (Real)",
+                "desc": "An opera, with libretto by John Gay, written 1727."
             }
         ],
         "image": "adambede",
@@ -4032,10 +4032,6 @@
                 "desc": "A society \"instituted to support reform by promoting the return of fit and proper members to Parliament\", active at the time of the Reform Bill."
             },
             {
-                "name": "\"Lungi dal Cara Bene\" (Real)",
-                "desc": "Music which Will Ladislaw and Mrs. Lydgate are playing when Dorothea interrupts them. A cavatina, by Giuseppe Sarti (1729-1802)."
-            },
-            {
                 "name": "\"Last Rose of Summer\" (Real)",
                 "desc": "A well-known song, with words by Thomas Moore, first published 1813, in his Irish Melodies; the air is altered from an older one called the \"Groves of Blarney\"."
             },
@@ -4510,6 +4506,10 @@
             {
                 "name": "Parerga",
                 "desc": "Mr. Casaubon's published pamphlets, preliminary to his great unpublished \"Key to all Mythologies\", \"by which he tested his public and deposited small monumental records of his march.\""
+            },
+            {
+                "name": "\"Lungi dal Cara Bene\" (Real)",
+                "desc": "Music which Will Ladislaw and Mrs. Lydgate are playing when Dorothea interrupts them. A cavatina, by Giuseppe Sarti (1729-1802)."
             },
             {
                 "name": "\"Gentleman's Magazine\"",
