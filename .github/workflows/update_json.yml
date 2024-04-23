@@ -2,7 +2,7 @@ name: Update JSON Files
 
 on:
   schedule:
-    - cron: '0 */2 * * *' #Runs every two hours
+    - cron: '0 */12 * * *' #Runs every twelve hours
   workflow_dispatch:
 
 jobs:
