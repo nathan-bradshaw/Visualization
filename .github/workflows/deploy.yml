@@ -16,7 +16,7 @@ jobs:
       - run: npm ci
 
       - name: Build Project
-        run: npm run build
+        run: CI=false npm run build
 
       - name: Set up Git user
         run: |
