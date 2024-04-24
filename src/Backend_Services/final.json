@@ -1534,58 +1534,6 @@
                 "desc": "Mrs. Grandcourt's maid."
             },
             {
-                "name": "\"Times\" (Real)",
-                "desc": "London newspaper."
-            },
-            {
-                "name": "\"Sweet Echo\" (Real)",
-                "desc": "A song, which the boy Daniel Deronda sings beautifully. \"Sweet Echo,\" a favourite song in Milton's Comus, set to music by T. A. Arne."
-            },
-            {
-                "name": "Regent Street, London (Real)",
-                "desc": "Regent Street, London (Real)"
-            },
-            {
-                "name": "\"Per Pieta non Dirmi Addio\" (Real)",
-                "desc": "A song by Beethoven, which Mirah Cohen sings."
-            },
-            {
-                "name": "\"Otello, Gondolier's Song From\" (Real)",
-                "desc": "The song which Daniel Deronda is singing on the Thames, just before he rescues Mirah Cohen from drowning. \"Otello,\" an opera by Rossini, with libretto based on Shakespeare's play, Othello."
-            },
-            {
-                "name": "\"Lascia Ch'io Planga\" (Real)",
-                "desc": "Song which Mab Meyrick practices. An aria by Handel."
-            },
-            {
-                "name": "\"Ich Hab' Dich Geliebet Und Liebe Dich Noch\" (Real)",
-                "desc": "A song by Heine to which Klesmer has set music of his own."
-            },
-            {
-                "name": "\"Herz, Mein Herz\" (Real)",
-                "desc": "A song which Mirah Cohen is singing just as her father returns. \"Herz, mein Herz, warum so traurig,\" a popular German song written by J. R. Wyss (1812), with music by J. L. F. Gluck."
-            },
-            {
-                "name": "\"Guardian\" (Real)",
-                "desc": "A paper read by Mr. Gascoigne's family. The Guardian, London, first published 1846."
-            },
-            {
-                "name": "Gretchen's Songs in Faust (Real)",
-                "desc": "Songs, with Prince Radzivill's music, which Mirah Cohen sings to Klesmer when he is trying her voice. Anton Heinrich, Prince of Radziwill (1775-1883), a player, singer, and composer whose best known work was his Compositions to Goethe's Dramatic Poem of Faust."
-            },
-            {
-                "name": "Cologne (Real)",
-                "desc": "Cologne (Real)"
-            },
-            {
-                "name": "Brussels (Real)",
-                "desc": "Brussels (Real)"
-            },
-            {
-                "name": "Bellini, Aria From (Real)",
-                "desc": "Song sung by Gwendolen Harleth. Vincenzo Bellini (1801-35), a famous Italian operatic composer."
-            },
-            {
                 "name": "Hermione",
                 "desc": "Character from the \"Winter's Tale\" which Gwendolen Harleth represents in private theatricals at Offendene."
             },
@@ -1848,6 +1796,18 @@
                 "desc": "Brackenshaw Archery Club,A select club where Gwendolen Harleth and Grandcourt first met."
             },
             {
+                "name": "Regent Street, London (Real)",
+                "desc": "Regent Street, London (Real)"
+            },
+            {
+                "name": "Cologne (Real)",
+                "desc": "Cologne (Real)"
+            },
+            {
+                "name": "Brussels (Real)",
+                "desc": "Brussels (Real)"
+            },
+            {
                 "name": "Trieste (Real)",
                 "desc": "Trieste (Real),Trieste, an important seaport on the Adriatic, at the time of Daniel Deronda belonging to Austria, but ceded to Italy, 1919."
             },
@@ -2064,6 +2024,46 @@
             {
                 "name": "\"Clerical Gazette\"",
                 "desc": "A church paper read by Mr. Gascoigne."
+            },
+            {
+                "name": "\"Times\" (Real)",
+                "desc": "London newspaper."
+            },
+            {
+                "name": "\"Sweet Echo\" (Real)",
+                "desc": "A song, which the boy Daniel Deronda sings beautifully. \"Sweet Echo,\" a favourite song in Milton's Comus, set to music by T. A. Arne."
+            },
+            {
+                "name": "\"Per Pieta non Dirmi Addio\" (Real)",
+                "desc": "A song by Beethoven, which Mirah Cohen sings."
+            },
+            {
+                "name": "\"Otello, Gondolier's Song From\" (Real)",
+                "desc": "The song which Daniel Deronda is singing on the Thames, just before he rescues Mirah Cohen from drowning. \"Otello,\" an opera by Rossini, with libretto based on Shakespeare's play, Othello."
+            },
+            {
+                "name": "\"Lascia Ch'io Planga\" (Real)",
+                "desc": "Song which Mab Meyrick practices. An aria by Handel."
+            },
+            {
+                "name": "\"Ich Hab' Dich Geliebet Und Liebe Dich Noch\" (Real)",
+                "desc": "A song by Heine to which Klesmer has set music of his own."
+            },
+            {
+                "name": "\"Herz, Mein Herz\" (Real)",
+                "desc": "A song which Mirah Cohen is singing just as her father returns. \"Herz, mein Herz, warum so traurig,\" a popular German song written by J. R. Wyss (1812), with music by J. L. F. Gluck."
+            },
+            {
+                "name": "\"Guardian\" (Real)",
+                "desc": "A paper read by Mr. Gascoigne's family. The Guardian, London, first published 1846."
+            },
+            {
+                "name": "Gretchen's Songs in Faust (Real)",
+                "desc": "Songs, with Prince Radzivill's music, which Mirah Cohen sings to Klesmer when he is trying her voice. Anton Heinrich, Prince of Radziwill (1775-1883), a player, singer, and composer whose best known work was his Compositions to Goethe's Dramatic Poem of Faust."
+            },
+            {
+                "name": "Bellini, Aria From (Real)",
+                "desc": "Song sung by Gwendolen Harleth. Vincenzo Bellini (1801-35), a famous Italian operatic composer."
             }
         ],
         "image": "danielderonda",
@@ -2544,14 +2544,6 @@
                 "desc": "A quack medicine to which Felix is heir."
             },
             {
-                "name": "\"Evangelical Magazine\" (Real)",
-                "desc": "The magazine which the Muscats took in. The Evangelical Magazine and Missionary Chronicle, London, first established 1793."
-            },
-            {
-                "name": "\"Bannockburn\" (Real)",
-                "desc": "A tune which Felix Holt is whistling when he finds Christian's lost pocket-book. Bannockburn, or Scot's, wha hae wi' Wallace bled, a song by Robert Burns, set to the old Scotch tune called Hey tutti taitie."
-            },
-            {
                 "name": "Halliwell",
                 "desc": "Lawyer, of the firm of Dymock and Halliwell."
             },
@@ -2846,6 +2838,14 @@
             {
                 "name": "Holt's Carthartic Lozenges",
                 "desc": "One of the quack medicines to which Felix is heir."
+            },
+            {
+                "name": "\"Evangelical Magazine\" (Real)",
+                "desc": "The magazine which the Muscats took in. The Evangelical Magazine and Missionary Chronicle, London, first established 1793."
+            },
+            {
+                "name": "\"Bannockburn\" (Real)",
+                "desc": "A tune which Felix Holt is whistling when he finds Christian's lost pocket-book. Bannockburn, or Scot's, wha hae wi' Wallace bled, a song by Robert Burns, set to the old Scotch tune called Hey tutti taitie."
             }
         ],
         "image": "felixholt",
@@ -4016,62 +4016,6 @@
                 "desc": "Sir James Chettam's groom."
             },
             {
-                "name": "\"Ye Banks and Braes\" (Real)",
-                "desc": "An air which Fred Vincy practices on his flute. \"Ye banks and braes o' bonnie Doone,\" a song with words by Robert Burns set to an older tune of uncertain origin."
-            },
-            {
-                "name": "\"When First I Saw Thy Face\" (Real)",
-                "desc": "A song which Will Ladislaw hums. \"Since first I saw your face,\" an old song, with music by Thomas Ford, dating from 1607, which has retained its popularity during three centuries."
-            },
-            {
-                "name": "\"Voi, Che Sapete\" (Real)",
-                "desc": "One of the songs which Rosamond Vincy sings. By Mozart."
-            },
-            {
-                "name": "Parliamentary Candidate Society (Real)",
-                "desc": "A society \"instituted to support reform by promoting the return of fit and proper members to Parliament\", active at the time of the Reform Bill."
-            },
-            {
-                "name": "\"Last Rose of Summer\" (Real)",
-                "desc": "A well-known song, with words by Thomas Moore, first published 1813, in his Irish Melodies; the air is altered from an older one called the \"Groves of Blarney\"."
-            },
-            {
-                "name": "\"Lancet\" (Real)",
-                "desc": "A medical periodical, the attitude of which on the coronership is discussed by the medical men in Middlemarch. The Lancet, London, founded 1823 by Thomas Wakley."
-            },
-            {
-                "name": "\"I've Been Roaming\" (Real)",
-                "desc": "One of the songs sung by Rosamond Vincy. The words of this songs were written by George Darley (1795-1846), poet, critic, and mathematician, and were published in 1826 under his pseudonym of Guy Penseval in his Labours of Idleness. The music is by C. E. Horn."
-            },
-            {
-                "name": "Home, Sweet Home (Real)",
-                "desc": "A song which Rosamond Vincy sings to Peter Featherstone, although she detests it. This well known song by John Howard Payne, from his opera \"Clari, or the Maid of Milan\" which was first produced in 1823, was a comparatively new song when Rosamond Vincy sang it. The music is by Sir Henry Bishop."
-            },
-            {
-                "name": "Haydn's Canzonets (Real)",
-                "desc": "Songs by Franz Joseph Haydn (1732-1809)."
-            },
-            {
-                "name": "\"Flow on, Thou Shining River\" (Real)",
-                "desc": "A song which Rosamond Vincy sings to Mr. Featherstone."
-            },
-            {
-                "name": "Finsbury (Real)",
-                "desc": "Finsbury (Real)"
-            },
-            {
-                "name": "\"Cherry Ripe\" (Real)",
-                "desc": "Song which Fred Vincy strums on the piano. The words of the song are by Herrick, the music by Charles E. Horn."
-            },
-            {
-                "name": "\"Black-Eyed Susan\" (Real)",
-                "desc": "One of the songs which Rosamond Vincy sings. A song composed by Richard Leveridge (c. 1670-1758), said to have been arranged by him from a still older melody."
-            },
-            {
-                "name": "\"Batti, Batti\" (Real)",
-                "desc": "One of the songs which Rosamond Vincy sings. \"Batti batti, o bel Masetto,\" an aria by Mozart."
-            },
-            {
                 "name": "Hicks",
                 "desc": "The rural doctor."
             },
@@ -4354,6 +4298,10 @@
                 "desc": "Bilkley,A town forty miles from Middlemarch."
             },
             {
+                "name": "Finsbury (Real)",
+                "desc": "Finsbury (Real)"
+            },
+            {
                 "name": "Vatican (Real)",
                 "desc": "Vatican (Real),Museum and Library which the Casaubons visit in Rome. The Vatican Palace, the residence of the popes and headquarters of the Papacy, contains many collections, including the collection of antiquities which Mrs. Casaubon visited, and a great library especially rich in manuscripts, where Mr. Casaubon carried on his researches."
             },
@@ -4508,8 +4456,60 @@
                 "desc": "Mr. Casaubon's published pamphlets, preliminary to his great unpublished \"Key to all Mythologies\", \"by which he tested his public and deposited small monumental records of his march.\""
             },
             {
+                "name": "\"Ye Banks and Braes\" (Real)",
+                "desc": "An air which Fred Vincy practices on his flute. \"Ye banks and braes o' bonnie Doone,\" a song with words by Robert Burns set to an older tune of uncertain origin."
+            },
+            {
+                "name": "\"When First I Saw Thy Face\" (Real)",
+                "desc": "A song which Will Ladislaw hums. \"Since first I saw your face,\" an old song, with music by Thomas Ford, dating from 1607, which has retained its popularity during three centuries."
+            },
+            {
+                "name": "\"Voi, Che Sapete\" (Real)",
+                "desc": "One of the songs which Rosamond Vincy sings. By Mozart."
+            },
+            {
+                "name": "Parliamentary Candidate Society (Real)",
+                "desc": "A society \"instituted to support reform by promoting the return of fit and proper members to Parliament\", active at the time of the Reform Bill."
+            },
+            {
                 "name": "\"Lungi dal Cara Bene\" (Real)",
                 "desc": "Music which Will Ladislaw and Mrs. Lydgate are playing when Dorothea interrupts them. A cavatina, by Giuseppe Sarti (1729-1802)."
+            },
+            {
+                "name": "\"Last Rose of Summer\" (Real)",
+                "desc": "A well-known song, with words by Thomas Moore, first published 1813, in his Irish Melodies; the air is altered from an older one called the \"Groves of Blarney\"."
+            },
+            {
+                "name": "\"Lancet\" (Real)",
+                "desc": "A medical periodical, the attitude of which on the coronership is discussed by the medical men in Middlemarch. The Lancet, London, founded 1823 by Thomas Wakley."
+            },
+            {
+                "name": "\"I've Been Roaming\" (Real)",
+                "desc": "One of the songs sung by Rosamond Vincy. The words of this songs were written by George Darley (1795-1846), poet, critic, and mathematician, and were published in 1826 under his pseudonym of Guy Penseval in his Labours of Idleness. The music is by C. E. Horn."
+            },
+            {
+                "name": "Home, Sweet Home (Real)",
+                "desc": "A song which Rosamond Vincy sings to Peter Featherstone, although she detests it. This well known song by John Howard Payne, from his opera \"Clari, or the Maid of Milan\" which was first produced in 1823, was a comparatively new song when Rosamond Vincy sang it. The music is by Sir Henry Bishop."
+            },
+            {
+                "name": "Haydn's Canzonets (Real)",
+                "desc": "Songs by Franz Joseph Haydn (1732-1809)."
+            },
+            {
+                "name": "\"Flow on, Thou Shining River\" (Real)",
+                "desc": "A song which Rosamond Vincy sings to Mr. Featherstone."
+            },
+            {
+                "name": "\"Cherry Ripe\" (Real)",
+                "desc": "Song which Fred Vincy strums on the piano. The words of the song are by Herrick, the music by Charles E. Horn."
+            },
+            {
+                "name": "\"Black-Eyed Susan\" (Real)",
+                "desc": "One of the songs which Rosamond Vincy sings. A song composed by Richard Leveridge (c. 1670-1758), said to have been arranged by him from a still older melody."
+            },
+            {
+                "name": "\"Batti, Batti\" (Real)",
+                "desc": "One of the songs which Rosamond Vincy sings. \"Batti batti, o bel Masetto,\" an aria by Mozart."
             },
             {
                 "name": "\"Gentleman's Magazine\"",
@@ -5390,24 +5390,8 @@
                 "desc": "Small son of the contadina Tessa and Tito Melema. When as a child of three years old he runs away from home, he is found and taken home by Romola, who thus finds her husband's \"other wife\" and his children."
             },
             {
-                "name": "Pyramid of Vanites (Real)",
-                "desc": "The great pile of gauds and vanities brought together for the bonfire of Vanities in the Piazza della Signoria, Florence. \"There were tapestries and brocades of immodest design, pictures and sculptures held too likely to incite to vice; there were boards and tables for all sorts of games, playing-cards along with the blocks for printing them, dice, and other apparatus for gambling ; there were worldly music-books, and musical instruments in all the pretty varieties of lute, drum, cymbal, and trumpet ; there were masks and masquerading-dresses used in the old carnival shows; there were handsome copies of Ovid, Boccaccio, Petrarca, Polci, and other books of a vain or impure sort; there were all the implements of feminine vanity.\" "
-            },
-            {
-                "name": "Impruneta, Madonna dell' (Real)",
-                "desc": "An image of the Virgin of extreme sanctity which is brought from the Church of l'Impruneta outside Florence and carried in solemn procession through the city to break the famine of 1496. \"For a  century and a half there were records how the Florentinces, suffering from drought, or flood, or famine, or pestilence, or the threat of wars, had fetched the potent image within their walls, and had found deliverance. And grateful honour had been done to her and her ancient church of L'Impruneta. . . The Florentines were deeply convinced of her graciousness to them, so that the sight of her tabernacle within their walls was like the parting of the cloud, and the proverb ran, that the Florentines had a Madonna who would do what they pleased.\" A famous wonder-worker image which was found buried at Impruneta and was said to have uttered a cry when the workman's spade struck it. It was probably made by a Luca, of the eleventh century, though legend attributed it to St. Luke."
-            },
-            {
-                "name": "Fierucola (Real)",
-                "desc": "The \"Little Fair\"; a fair or festival held by the peasants on the seventh of September, the eve of the Nativity of the Virgin, in the Piazza dell' Annunziata. Tito Melema, whose interest has been aroused by Nello's description of the Fierucola, goes to see the celebration, find Tessa in the Church of the Annunziata, wanders through the fair with her, and ends by going through a mock marriage ceremony which she ignorantly believes to be real. Guido Biage, in his edition of Romola, points out that it is not certainn that the Fierucola was celbrated as early as the time of Romola, as, according to one tradition, the festival commemorates the taking of Siena in 1555."
-            },
-            {
                 "name": "Companies of Discipline (Real)",
                 "desc": "Participants in the procession of the Madonna de L'Impruneta, in Florence. \"The mysterious-looking Companies of Discipline, bound by secret rules to self-chastisement, and devout praise, and special acts of piety; all wearing a garb which concealed the whole head and face except the eyes. Every one knew that these mysterious forms were Florentine citizens of various ranks... the garb of all was a complete shroud, and left no expression but that of fellowship.\" These were companies called Compagnie dei Disiplinati, or di Disciplina. They were thirty-eight in number, and drew their members from all ranks, high and low. Their duties included works of charity, marching in processions, and burial services."
-            },
-            {
-                "name": "\"Auld Lang Syne\" (Real)",
-                "desc": "Tune played by the Tory band at the Treby election. A Scottish popular song which Robert Burns set originally to an older tune which was displaced in 1799 by the present tune ; an air popular in Scotland during the second half of the eighteenth century. There is some question whether Burns wrote all the words or adapted some stanzas from an older song."
             },
             {
                 "name": "Arts of Florence (Real)",
@@ -5424,14 +5408,6 @@
             {
                 "name": "Arbues, Master (Real)",
                 "desc": "Grand Inquisitor of Aragon. Maestre Pedro Arbues, a canon of the cathedral of Saragasso, who was appointed Inquisitor by Torquemada in 1484. September 15, 1485, he was attacked as he was praying in the cathedral, and died a few days later as a result of his injuries. He was regarded as a martyr, and was canonized in 1867."
-            },
-            {
-                "name": "\"All We Like Sheep\" (Real)",
-                "desc": "A chorus from Handel's Messiah which Caterina Sarti plays."
-            },
-            {
-                "name": "\"Ah, Perche Non Posso Odiarti\" (I Love Thee Still) (Real)",
-                "desc": "A song from the \"Somnambula\" which Philip Wakem sings. \"La Sonnambula,\" an opera by Bellini (1801-35), first produced in 1831."
             },
             {
                 "name": "Gollo",
@@ -5534,6 +5510,10 @@
             {
                 "name": "Abbey",
                 "desc": "Abbey,The name of the Donnithorne mansion, at Donnithorne Chase. "
+            },
+            {
+                "name": "Pyramid of Vanites (Real)",
+                "desc": "The great pile of gauds and vanities brought together for the bonfire of Vanities in the Piazza della Signoria, Florence. \"There were tapestries and brocades of immodest design, pictures and sculptures held too likely to incite to vice; there were boards and tables for all sorts of games, playing-cards along with the blocks for printing them, dice, and other apparatus for gambling ; there were worldly music-books, and musical instruments in all the pretty varieties of lute, drum, cymbal, and trumpet ; there were masks and masquerading-dresses used in the old carnival shows; there were handsome copies of Ovid, Boccaccio, Petrarca, Polci, and other books of a vain or impure sort; there were all the implements of feminine vanity.\" "
             },
             {
                 "name": "Viareggio (Real)",
@@ -6124,6 +6104,26 @@
             {
                 "name": "\"All Things Journey, Sun and Moon\"",
                 "desc": "One of the songs of Juan, the minstrel."
+            },
+            {
+                "name": "Impruneta, Madonna dell' (Real)",
+                "desc": "An image of the Virgin of extreme sanctity which is brought from the Church of l'Impruneta outside Florence and carried in solemn procession through the city to break the famine of 1496. \"For a  century and a half there were records how the Florentinces, suffering from drought, or flood, or famine, or pestilence, or the threat of wars, had fetched the potent image within their walls, and had found deliverance. And grateful honour had been done to her and her ancient church of L'Impruneta. . . The Florentines were deeply convinced of her graciousness to them, so that the sight of her tabernacle within their walls was like the parting of the cloud, and the proverb ran, that the Florentines had a Madonna who would do what they pleased.\" A famous wonder-worker image which was found buried at Impruneta and was said to have uttered a cry when the workman's spade struck it. It was probably made by a Luca, of the eleventh century, though legend attributed it to St. Luke."
+            },
+            {
+                "name": "Fierucola (Real)",
+                "desc": "The \"Little Fair\"; a fair or festival held by the peasants on the seventh of September, the eve of the Nativity of the Virgin, in the Piazza dell' Annunziata. Tito Melema, whose interest has been aroused by Nello's description of the Fierucola, goes to see the celebration, find Tessa in the Church of the Annunziata, wanders through the fair with her, and ends by going through a mock marriage ceremony which she ignorantly believes to be real. Guido Biage, in his edition of Romola, points out that it is not certainn that the Fierucola was celbrated as early as the time of Romola, as, according to one tradition, the festival commemorates the taking of Siena in 1555."
+            },
+            {
+                "name": "\"Auld Lang Syne\" (Real)",
+                "desc": "Tune played by the Tory band at the Treby election. A Scottish popular song which Robert Burns set originally to an older tune which was displaced in 1799 by the present tune ; an air popular in Scotland during the second half of the eighteenth century. There is some question whether Burns wrote all the words or adapted some stanzas from an older song."
+            },
+            {
+                "name": "\"All We Like Sheep\" (Real)",
+                "desc": "A chorus from Handel's Messiah which Caterina Sarti plays."
+            },
+            {
+                "name": "\"Ah, Perche Non Posso Odiarti\" (I Love Thee Still) (Real)",
+                "desc": "A song from the \"Somnambula\" which Philip Wakem sings. \"La Sonnambula,\" an opera by Bellini (1801-35), first produced in 1831."
             }
         ],
         "image": "romola",
@@ -6368,22 +6368,6 @@
                 "desc": "The Cass's maid."
             },
             {
-                "name": "\"Sir Roger de Coverly\" (Real)",
-                "desc": "A dance tune which Solomon Macy plays at the New Year's dance at the Red House. A popular dance tune, probably of North Country origin, from which Addison took the name of Sir Roger de Coverly in the Spectator."
-            },
-            {
-                "name": "\"Over the Hills and Far Away\" (Real)",
-                "desc": "A tune which Solomon Macey plays at the New Year's dance at the Red House. This song is found in George Farquhar's play The Recruiting Officer, first produced 1706. There is also a song to the same air and with the same refrain \"Over the Hills\", etc., in Gay's Beggar's Opera."
-            },
-            {
-                "name": "\"Hark the Erol Angils Sing\" (Real)",
-                "desc": "A Christmas hymn which Dolly Winthrop likes. \"Hark! The herald angels sing,\" a well known Christmas hymn by Charles Wesley, written 1739."
-            },
-            {
-                "name": "\"God Rest You, Merry Gentlemen\" (Real)",
-                "desc": "A \"Christmas carril\" which little Aaron Winthrop sings. The most popular of Christmas carols, author unknown."
-            },
-            {
                 "name": "Fleet",
                 "desc": "Squire Cass's deer hound."
             }
@@ -6474,6 +6458,22 @@
             {
                 "name": "\"Flaxen-Headed Ploughboy\"",
                 "desc": "Squire Cass's favourite tune, which Solomon Macey plays at the New Year's dance. This is the once popular song \"The Ploughboy\", beginning: \"The flaxen-headed cow-boy, as simple as may be\u2026 And next a merry ploughboy,\" etc. The words, by John O'Keefe, are included in his ballad-opera \"The Farmer\"; the music is by William Shield."
+            },
+            {
+                "name": "\"Sir Roger de Coverly\" (Real)",
+                "desc": "A dance tune which Solomon Macy plays at the New Year's dance at the Red House. A popular dance tune, probably of North Country origin, from which Addison took the name of Sir Roger de Coverly in the Spectator."
+            },
+            {
+                "name": "\"Over the Hills and Far Away\" (Real)",
+                "desc": "A tune which Solomon Macey plays at the New Year's dance at the Red House. This song is found in George Farquhar's play The Recruiting Officer, first produced 1706. There is also a song to the same air and with the same refrain \"Over the Hills\", etc., in Gay's Beggar's Opera."
+            },
+            {
+                "name": "\"Hark the Erol Angils Sing\" (Real)",
+                "desc": "A Christmas hymn which Dolly Winthrop likes. \"Hark! The herald angels sing,\" a well known Christmas hymn by Charles Wesley, written 1739."
+            },
+            {
+                "name": "\"God Rest You, Merry Gentlemen\" (Real)",
+                "desc": "A \"Christmas carril\" which little Aaron Winthrop sings. The most popular of Christmas carols, author unknown."
             }
         ],
         "image": "silasmarner",
@@ -6983,46 +6983,6 @@
                 "desc": "A young and worthless prot\u00e9g\u00e9 of Lawyer Wakem's, who is put in charge of Dorlcote Mill after Mr. Tulliver's death."
             },
             {
-                "name": "\"Shall I, Wasting in Despair\" (Real)",
-                "desc": "A song which Stephen Guest sings. The words were written by George Wither, 1617. The original setting, by a seventeenth century coposer is given in Chappell's Popular Music of the Olden Time."
-            },
-            {
-                "name": "Purcell's Songs (Real)",
-                "desc": "Lucy Deane's favourites among the songs sung by Stephen Guest."
-            },
-            {
-                "name": "\"Masaniello, Duet In\" (Real)",
-                "desc": "Duet which Stephen Guest and Philip Wakem sing. \"Masaniello\" is the name given in England to D. F. E. Auber's opera \"La mette de Portici\"."
-            },
-            {
-                "name": "\"Maid of Artois\" (Real)",
-                "desc": "Music which Stephen Guest brings to Lucy Dean. An opera by W. M. Balfe."
-            },
-            {
-                "name": "\"Love in Her Eyes Sits Playing\" (Real)",
-                "desc": "A song which Philip Wakem sings for Maggie Tulliver. A song from Handel's Acis and Galatea; the words are by John Gay."
-            },
-            {
-                "name": "\"Let Us Take The Road\" (Real)",
-                "desc": "A song from the \"Beggar's Opera\" sung by Lucy Deane, Philip Wakem, and Stephen Guest."
-            },
-            {
-                "name": "\"Hust, Ye Pretty Warbling Choir\" (Real)",
-                "desc": "One of the tunes played by Uncle Pullett's musical snuffbox. An air from Handel's masque or pastoral opera, \"Acis and Galatea\", composed about 1720. The words of the greater part, including this song, are by John Gay."
-            },
-            {
-                "name": "\"Graceful Consort\" (Real)",
-                "desc": "A song from \"The Creation\" which Lucy Deane and Stephen Guest sing. \"Graceful consort at they side,\" a duet from \"The Creation\" by Haydn (1732-1809)."
-            },
-            {
-                "name": "\"Creation\" (Real)",
-                "desc": "Lucy Deane and Stephen Guest sing several of the songs from the \"Creation\". An oratorio by Haydn (1732-1809)."
-            },
-            {
-                "name": "\"Begone, Dull Care\" (Real)",
-                "desc": "A popular song, the words of which were suggested by a sixteenth century song, while the music was derived from the \"Queen's Jig.\""
-            },
-            {
                 "name": "Grattan",
                 "desc": "A lad who shot his mother by accident, and who is befriended by Dr. Kenn."
             },
@@ -7225,6 +7185,46 @@
             {
                 "name": "Salt",
                 "desc": "Supercargo of the vessel which takes out Bob Jakin's and Tom Tulliver's ventures; \"a briny chap.\""
+            },
+            {
+                "name": "\"Shall I, Wasting in Despair\" (Real)",
+                "desc": "A song which Stephen Guest sings. The words were written by George Wither, 1617. The original setting, by a seventeenth century coposer is given in Chappell's Popular Music of the Olden Time."
+            },
+            {
+                "name": "Purcell's Songs (Real)",
+                "desc": "Lucy Deane's favourites among the songs sung by Stephen Guest."
+            },
+            {
+                "name": "\"Masaniello, Duet In\" (Real)",
+                "desc": "Duet which Stephen Guest and Philip Wakem sing. \"Masaniello\" is the name given in England to D. F. E. Auber's opera \"La mette de Portici\"."
+            },
+            {
+                "name": "\"Maid of Artois\" (Real)",
+                "desc": "Music which Stephen Guest brings to Lucy Dean. An opera by W. M. Balfe."
+            },
+            {
+                "name": "\"Love in Her Eyes Sits Playing\" (Real)",
+                "desc": "A song which Philip Wakem sings for Maggie Tulliver. A song from Handel's Acis and Galatea; the words are by John Gay."
+            },
+            {
+                "name": "\"Let Us Take The Road\" (Real)",
+                "desc": "A song from the \"Beggar's Opera\" sung by Lucy Deane, Philip Wakem, and Stephen Guest."
+            },
+            {
+                "name": "\"Hust, Ye Pretty Warbling Choir\" (Real)",
+                "desc": "One of the tunes played by Uncle Pullett's musical snuffbox. An air from Handel's masque or pastoral opera, \"Acis and Galatea\", composed about 1720. The words of the greater part, including this song, are by John Gay."
+            },
+            {
+                "name": "\"Graceful Consort\" (Real)",
+                "desc": "A song from \"The Creation\" which Lucy Deane and Stephen Guest sing. \"Graceful consort at they side,\" a duet from \"The Creation\" by Haydn (1732-1809)."
+            },
+            {
+                "name": "\"Creation\" (Real)",
+                "desc": "Lucy Deane and Stephen Guest sing several of the songs from the \"Creation\". An oratorio by Haydn (1732-1809)."
+            },
+            {
+                "name": "\"Begone, Dull Care\" (Real)",
+                "desc": "A popular song, the words of which were suggested by a sixteenth century song, while the music was derived from the \"Queen's Jig.\""
             }
         ],
         "image": "themill",
@@ -7839,14 +7839,6 @@
                 "desc": "Kitty's \"follyer\"."
             },
             {
-                "name": "\"Soldier's Tear\" (Real)",
-                "desc": "One of the songs sung by Miss Rebecca Linnet. Written by Thomas Haynes Bayly (1797-1839)."
-            },
-            {
-                "name": "\"Oh, No, We Never Mention Her\" (Real)",
-                "desc": "One of the songs sung by Miss Rebecca Linnet. Written by Thomas Haynes Bayly (1797-1839)."
-            },
-            {
                 "name": "Betty",
                 "desc": "The Dempster's middle-aged cook."
             },
@@ -8005,6 +7997,14 @@
             {
                 "name": "\"Crompton Argus\"",
                 "desc": "Newspaper."
+            },
+            {
+                "name": "\"Soldier's Tear\" (Real)",
+                "desc": "One of the songs sung by Miss Rebecca Linnet. Written by Thomas Haynes Bayly (1797-1839)."
+            },
+            {
+                "name": "\"Oh, No, We Never Mention Her\" (Real)",
+                "desc": "One of the songs sung by Miss Rebecca Linnet. Written by Thomas Haynes Bayly (1797-1839)."
             }
         ],
         "image": "janetsrepentance",
@@ -8253,26 +8253,6 @@
                 "desc": "The Countess Czerlaski's spaniel."
             },
             {
-                "name": "\"Wedding Psalm\" (Real)",
-                "desc": "The psalm which caused a row when sung in Shepperton Church. W. Whittingham's version of the 133rd Psalm, in the old version of the Psalter."
-            },
-            {
-                "name": "\"Tempest, The\" (Real)",
-                "desc": "The music of \"The Tempest\" is among the songs sung by Stephen Guest, Philip Wakem, and Lucy Deane. The incidental music of The Tempest was written by Thomas A. Arne (1710-78), when the play was revived at Drury Lane Theatre, 1746."
-            },
-            {
-                "name": "\"Record\" (Real)",
-                "desc": "A periodical which Amos Barton would have taken in if he had been able to afford it. The Record, first published 1828, represented the views of the Evangelical element of the Church of England."
-            },
-            {
-                "name": "\"Lydia\" (Real)",
-                "desc": "A tune which Mr. Barton sets in church, thereby scandalizing Mr. Farquhar. Composed by Thomas Phillipe (1774-1841), and used in Nonconformist hymnbooks before it was adopted in the Church of England."
-            },
-            {
-                "name": "Christian Observer (Real)",
-                "desc": "A periodical which Amos Barton would have taken in if he had been able to afford it. A monthly magazine, published 1802-74; continued as the Christian Observer and Advocate, 1875-1877."
-            },
-            {
                 "name": "Dolby",
                 "desc": "Architect."
             },
@@ -8399,6 +8379,26 @@
             {
                 "name": "\"Old Maxum\"",
                 "desc": "A pauper patriarch of ninety-five, stone deaf."
+            },
+            {
+                "name": "\"Wedding Psalm\" (Real)",
+                "desc": "The psalm which caused a row when sung in Shepperton Church. W. Whittingham's version of the 133rd Psalm, in the old version of the Psalter."
+            },
+            {
+                "name": "\"Tempest, The\" (Real)",
+                "desc": "The music of \"The Tempest\" is among the songs sung by Stephen Guest, Philip Wakem, and Lucy Deane. The incidental music of The Tempest was written by Thomas A. Arne (1710-78), when the play was revived at Drury Lane Theatre, 1746."
+            },
+            {
+                "name": "\"Record\" (Real)",
+                "desc": "A periodical which Amos Barton would have taken in if he had been able to afford it. The Record, first published 1828, represented the views of the Evangelical element of the Church of England."
+            },
+            {
+                "name": "\"Lydia\" (Real)",
+                "desc": "A tune which Mr. Barton sets in church, thereby scandalizing Mr. Farquhar. Composed by Thomas Phillipe (1774-1841), and used in Nonconformist hymnbooks before it was adopted in the Church of England."
+            },
+            {
+                "name": "Christian Observer (Real)",
+                "desc": "A periodical which Amos Barton would have taken in if he had been able to afford it. A monthly magazine, published 1802-74; continued as the Christian Observer and Advocate, 1875-1877."
             }
         ],
         "image": "amosbarton",
@@ -8647,18 +8647,6 @@
                 "desc": "Mr. Gilfil's brown setter."
             },
             {
-                "name": "\"Roy's Wife of Aldivalloch\" (Real)",
-                "desc": "Song sung by Mr. Bates, the gardener. A favourite Scottish song, written near the end of the eighteenth century by Mrs. Elizabeth Grant, of Carron."
-            },
-            {
-                "name": "\"Ho Perduto Il Bel Sembiante\" (Real)",
-                "desc": "One of the songs which Caterina sings to Sir Christopher Cheverel. In the first edition of Mr. Gilfil George Eliot describes this song as being from Gluck's Orfeo, but in the revised edition she changed the text to read: \"Sir Christopher's favorite airs, by Gluck and Paisiello.\" It is by Giovanni Paisiello (1741-1816), and, when Caterina sang it, was one of the new songs of the day, as it had been sung two years before, in 1786, at Naples, by the popular prima donna, Anna Morichelli. It is from Paisiello's cantata Amor vendicato, first presented at Naples, 30th June, 1786. That cantata seems to have been called sometimes Dafne ed Alceo, from its principal characters."
-            },
-            {
-                "name": "Che Faro Senza Euridice (Real)",
-                "desc": "One of Sir Christopher Cheverel's favourite airs, which Caterina sings to him. A song from Gluck's opera Orfeo, act 3."
-            },
-            {
                 "name": "Griffin",
                 "desc": "The Asshers' maid."
             },
@@ -8757,7 +8745,20 @@
                 "desc": "Bath (Real),The town to which Captain Wybrow goes to court Miss Assher. A noted English watering-place in Somerset, fashionable in the eighteenth century."
             }
         ],
-        "misc": [],
+        "misc": [
+            {
+                "name": "\"Roy's Wife of Aldivalloch\" (Real)",
+                "desc": "Song sung by Mr. Bates, the gardener. A favourite Scottish song, written near the end of the eighteenth century by Mrs. Elizabeth Grant, of Carron."
+            },
+            {
+                "name": "\"Ho Perduto Il Bel Sembiante\" (Real)",
+                "desc": "One of the songs which Caterina sings to Sir Christopher Cheverel. In the first edition of Mr. Gilfil George Eliot describes this song as being from Gluck's Orfeo, but in the revised edition she changed the text to read: \"Sir Christopher's favorite airs, by Gluck and Paisiello.\" It is by Giovanni Paisiello (1741-1816), and, when Caterina sang it, was one of the new songs of the day, as it had been sung two years before, in 1786, at Naples, by the popular prima donna, Anna Morichelli. It is from Paisiello's cantata Amor vendicato, first presented at Naples, 30th June, 1786. That cantata seems to have been called sometimes Dafne ed Alceo, from its principal characters."
+            },
+            {
+                "name": "Che Faro Senza Euridice (Real)",
+                "desc": "One of Sir Christopher Cheverel's favourite airs, which Caterina sings to him. A song from Gluck's opera Orfeo, act 3."
+            }
+        ],
         "image": "mrgilfil",
         "desc": "II. Mr. Gilfil's Love Story. Blackwood\u2019s, March-June, 1857. Scene: \" Cheverel Manor \" (Arbury); \" Shepperton \" (Chilvers Coton). Time: Principal action, 1788-90. Sir Christopher Cheverel, a fine old English baronet with a passion for architecture, has spent nearly fifteen years in making over his old Manor House into a beautiful Gothic building. Though he is childless, Cheverel Manor is not without young people. Sir Christopher's ward, Maynard Gilfil, a young man who has just entered the Church, lives there, as does also Lady Cheverel's protegee, Caterina Sarti. Caterina is a young Italian girl with a beautiful voice, who has been a member of the family ever since Lady Cheverel rescued her, when, as a child of only three, she had been left destitute in Milan by her father's death. Sir Christopher intends that Maynard Gilfil and Caterina shall marry, but though Maynard has loved the beautiful Italian from childhood Caterina feels for him only the affection of a sister. Her passionate love has been won by the attentions of Captain Anthony Wybrow, Sir Christopher's nephew and heir, who has amused himself by flirting with Caterina. Following Sir Christopher's wishes, Captain Wybrow courts Beatrice Assher, a rich heiress, and Beatrice, after accepting him, com.es to visit at Cheverel Manor. Caterina, jealous and unhappy, cannot altogether conceal her feelings, and Miss Assher soon begins to suspect some relation between her lover and Caterina. To excuse himself Captain Wybrow leads Beatrice to think that Caterina has given him her love unsought, and Miss Assher reproaches her for such conduct. Frenzied by the unjust accusation, Caterina, who is going to meet Anthony in a part of the grounds called the Rookery, seizes a dagger and takes it with her, thinking that she will kill him. When she reaches the Rookery she finds him lying dead, where he had fallen from an attack of heart disease. The shock makes her forget everything except her former love, and when she faints, after carrying the news to Sir Christopher, Maynard finds the dagger in her possession. Distraught and self-reproachful, Caterina wanders from home the next day, and is eventually found to have sought refuge, worn-out and ill, with her former nurse. The Manor has too many sad associations for her to return there, but after she has spent some months with Mr. Gilfil's sister she recovers sufficiently to return from her unhappy passion to the refuge of Maynard's strong and considerate love. Caterina and Maynard are married, and have a short time of happiness, but she dies within a year, and Maynard's love goes \"with her into deep silence for evermore \". A part of Mr. Gilfil's life closes entirely with her death, and he always shows the effect of the tragedy of his youth, though he lives on for years, the eccentric and whimsical, but always upright and beloved, old vicar of Shepperton. Note. -The Scenes of Clerical Life were brought to an end with the third story. A fourth story, to be called the \"Clerical Tutor\", had been projected, but was never written. Additional information: I: The Sad Fortunes of the Reverend Amos Barton; Il: Mr. Gilfil's Love Story; III: Janet's Repentance. First published in Blackwood\u2019s Edinburgh Magazine, January-November, 1857. 1st edition, Edinburgh: William Blackwood and Sons, 1857. 2 vols. George Eliot's first work of fiction, Scenes of Clerical Life, consists of three simple and touching stories, each based upon some occurrence or real story well known in the neighbourhood of the Warwickshire home in which she spent her childhood. Excerpted from: Mudge, Isadore Gilbert. A George Eliot Dictionary: The Characters and Scenes of the Novels, Stories, and Poems Alphabetically Arranged. [1924] George Eliot Archive, edited by Beverley Park Rilett, 2024. https://GeorgeEliotArchive.org"
     }

@@ -3759,7 +3759,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23603",
         "Title": "\"Times\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "London newspaper.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3767,7 +3767,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23553",
         "Title": "\"Sweet Echo\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song, which the boy Daniel Deronda sings beautifully. \"Sweet Echo,\" a favourite song in Milton's Comus, set to music by T. A. Arne.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3775,7 +3775,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23315",
         "Title": "Regent Street, London (Real)",
-        "Subject": "Real Name",
+        "Subject": "Real Place",
         "Description": "Regent Street, London (Real)",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3783,7 +3783,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23165",
         "Title": "\"Per Pieta non Dirmi Addio\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song by Beethoven, which Mirah Cohen sings.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3791,7 +3791,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23106",
         "Title": "\"Otello, Gondolier's Song From\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "The song which Daniel Deronda is singing on the Thames, just before he rescues Mirah Cohen from drowning. \"Otello,\" an opera by Rossini, with libretto based on Shakespeare's play, Othello.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3799,7 +3799,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22744",
         "Title": "\"Lascia Ch'io Planga\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Song which Mab Meyrick practices. An aria by Handel.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3807,7 +3807,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22603",
         "Title": "\"Ich Hab' Dich Geliebet Und Liebe Dich Noch\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song by Heine to which Klesmer has set music of his own.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3815,7 +3815,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22551",
         "Title": "\"Herz, Mein Herz\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song which Mirah Cohen is singing just as her father returns. \"Herz, mein Herz, warum so traurig,\" a popular German song written by J. R. Wyss (1812), with music by J. L. F. Gluck.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3823,7 +3823,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22492",
         "Title": "\"Guardian\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A paper read by Mr. Gascoigne's family. The Guardian, London, first published 1846.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3831,7 +3831,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22481",
         "Title": "Gretchen's Songs in Faust (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Songs, with Prince Radzivill's music, which Mirah Cohen sings to Klesmer when he is trying her voice. Anton Heinrich, Prince of Radziwill (1775-1883), a player, singer, and composer whose best known work was his Compositions to Goethe's Dramatic Poem of Faust.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3839,7 +3839,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22078",
         "Title": "Cologne (Real)",
-        "Subject": "Real Name",
+        "Subject": "Real Place",
         "Description": "Cologne (Real)",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3847,7 +3847,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21930",
         "Title": "Brussels (Real)",
-        "Subject": "Real Name",
+        "Subject": "Real Place",
         "Description": "Brussels (Real)",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -3855,7 +3855,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21810",
         "Title": "Bellini, Aria From (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Song sung by Gwendolen Harleth. Vincenzo Bellini (1801-35), a famous Italian operatic composer.",
         "Source": "<em>Daniel Deronda</em>",
         "Type": "Text"
@@ -5628,7 +5628,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22268",
         "Title": "\"Evangelical Magazine\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "The magazine which the Muscats took in. The Evangelical Magazine and Missionary Chronicle, London, first established 1793.",
         "Source": "<em>Felix Holt, the Radical</em>",
         "Type": "Text"
@@ -5636,7 +5636,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21756",
         "Title": "\"Bannockburn\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A tune which Felix Holt is whistling when he finds Christian's lost pocket-book. Bannockburn, or Scot's, wha hae wi' Wallace bled, a song by Robert Burns, set to the old Scotch tune called Hey tutti taitie.",
         "Source": "<em>Felix Holt, the Radical</em>",
         "Type": "Text"
@@ -7562,7 +7562,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23495",
         "Title": "\"Soldier's Tear\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of the songs sung by Miss Rebecca Linnet. Written by Thomas Haynes Bayly (1797-1839).",
         "Source": "<em>Janet's Repentance</em>",
         "Type": "Text"
@@ -7570,7 +7570,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23079",
         "Title": "\"Oh, No, We Never Mention Her\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of the songs sung by Miss Rebecca Linnet. Written by Thomas Haynes Bayly (1797-1839).",
         "Source": "<em>Janet's Repentance</em>",
         "Type": "Text"
@@ -9926,7 +9926,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23807",
         "Title": "\"Ye Banks and Braes\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "An air which Fred Vincy practices on his flute. \"Ye banks and braes o' bonnie Doone,\" a song with words by Robert Burns set to an older tune of uncertain origin.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -9934,7 +9934,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23765",
         "Title": "\"When First I Saw Thy Face\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song which Will Ladislaw hums. \"Since first I saw your face,\" an old song, with music by Thomas Ford, dating from 1607, which has retained its popularity during three centuries.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -9942,7 +9942,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23724",
         "Title": "\"Voi, Che Sapete\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of the songs which Rosamond Vincy sings. By Mozart.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -9950,7 +9950,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23133",
         "Title": "Parliamentary Candidate Society (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A society \"instituted to support reform by promoting the return of fit and proper members to Parliament\", active at the time of the Reform Bill.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -9966,7 +9966,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22746",
         "Title": "\"Last Rose of Summer\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A well-known song, with words by Thomas Moore, first published 1813, in his Irish Melodies; the air is altered from an older one called the \"Groves of Blarney\".",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -9974,7 +9974,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22726",
         "Title": "\"Lancet\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A medical periodical, the attitude of which on the coronership is discussed by the medical men in Middlemarch. The Lancet, London, founded 1823 by Thomas Wakley.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -9982,7 +9982,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22620",
         "Title": "\"I've Been Roaming\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of the songs sung by Rosamond Vincy. The words of this songs were written by George Darley (1795-1846), poet, critic, and mathematician, and were published in 1826 under his pseudonym of Guy Penseval in his Labours of Idleness. The music is by C. E. Horn.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -9990,7 +9990,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22586",
         "Title": "Home, Sweet Home (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song which Rosamond Vincy sings to Peter Featherstone, although she detests it. This well known song by John Howard Payne, from his opera \"Clari, or the Maid of Milan\" which was first produced in 1823, was a comparatively new song when Rosamond Vincy sang it. The music is by Sir Henry Bishop.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -9998,7 +9998,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22536",
         "Title": "Haydn's Canzonets (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Songs by Franz Joseph Haydn (1732-1809).",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -10006,7 +10006,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22338",
         "Title": "\"Flow on, Thou Shining River\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song which Rosamond Vincy sings to Mr. Featherstone.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -10014,7 +10014,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22319",
         "Title": "Finsbury (Real)",
-        "Subject": "Real Name",
+        "Subject": "Real Place",
         "Description": "Finsbury (Real)",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -10022,7 +10022,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22024",
         "Title": "\"Cherry Ripe\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Song which Fred Vincy strums on the piano. The words of the song are by Herrick, the music by Charles E. Horn.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -10030,7 +10030,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21838",
         "Title": "\"Black-Eyed Susan\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of the songs which Rosamond Vincy sings. A song composed by Richard Leveridge (c. 1670-1758), said to have been arranged by him from a still older melody.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -10038,7 +10038,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21786",
         "Title": "\"Batti, Batti\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of the songs which Rosamond Vincy sings. \"Batti batti, o bel Masetto,\" an aria by Mozart.",
         "Source": "<em>Middlemarch</em>",
         "Type": "Text"
@@ -11030,7 +11030,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23357",
         "Title": "\"Roy's Wife of Aldivalloch\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Song sung by Mr. Bates, the gardener. A favourite Scottish song, written near the end of the eighteenth century by Mrs. Elizabeth Grant, of Carron.",
         "Source": "<em>Mr. Gilfil's Love Story, Scenes of Clerical Life</em>",
         "Type": "Text"
@@ -11038,7 +11038,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22569",
         "Title": "\"Ho Perduto Il Bel Sembiante\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of the songs which Caterina sings to Sir Christopher Cheverel. In the first edition of Mr. Gilfil George Eliot describes this song as being from Gluck's Orfeo, but in the revised edition she changed the text to read: \"Sir Christopher's favorite airs, by Gluck and Paisiello.\" It is by Giovanni Paisiello (1741-1816), and, when Caterina sang it, was one of the new songs of the day, as it had been sung two years before, in 1786, at Naples, by the popular prima donna, Anna Morichelli. It is from Paisiello's cantata Amor vendicato, first presented at Naples, 30th June, 1786. That cantata seems to have been called sometimes Dafne ed Alceo, from its principal characters.",
         "Source": "<em>Mr. Gilfil's Love Story, Scenes of Clerical Life</em>",
         "Type": "Text"
@@ -11046,7 +11046,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22020",
         "Title": "Che Faro Senza Euridice (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of Sir Christopher Cheverel's favourite airs, which Caterina sings to him. A song from Gluck's opera Orfeo, act 3.",
         "Source": "<em>Mr. Gilfil's Love Story, Scenes of Clerical Life</em>",
         "Type": "Text"
@@ -13143,7 +13143,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23280",
         "Title": "Pyramid of Vanites (Real)",
-        "Subject": "Real Name",
+        "Subject": "Real Place",
         "Description": "The great pile of gauds and vanities brought together for the bonfire of Vanities in the Piazza della Signoria, Florence. \"There were tapestries and brocades of immodest design, pictures and sculptures held too likely to incite to vice; there were boards and tables for all sorts of games, playing-cards along with the blocks for printing them, dice, and other apparatus for gambling ; there were worldly music-books, and musical instruments in all the pretty varieties of lute, drum, cymbal, and trumpet ; there were masks and masquerading-dresses used in the old carnival shows; there were handsome copies of Ovid, Boccaccio, Petrarca, Polci, and other books of a vain or impure sort; there were all the implements of feminine vanity.\" ",
         "Source": "<em>Romola</em>",
         "Type": "Text"
@@ -13151,7 +13151,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22607",
         "Title": "Impruneta, Madonna dell' (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "An image of the Virgin of extreme sanctity which is brought from the Church of l'Impruneta outside Florence and carried in solemn procession through the city to break the famine of 1496. \"For a  century and a half there were records how the Florentinces, suffering from drought, or flood, or famine, or pestilence, or the threat of wars, had fetched the potent image within their walls, and had found deliverance. And grateful honour had been done to her and her ancient church of L'Impruneta. . . The Florentines were deeply convinced of her graciousness to them, so that the sight of her tabernacle within their walls was like the parting of the cloud, and the proverb ran, that the Florentines had a Madonna who would do what they pleased.\" A famous wonder-worker image which was found buried at Impruneta and was said to have uttered a cry when the workman's spade struck it. It was probably made by a Luca, of the eleventh century, though legend attributed it to St. Luke.",
         "Source": "<em>Romola</em>",
         "Type": "Text"
@@ -13159,7 +13159,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22310",
         "Title": "Fierucola (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "The \"Little Fair\"; a fair or festival held by the peasants on the seventh of September, the eve of the Nativity of the Virgin, in the Piazza dell' Annunziata. Tito Melema, whose interest has been aroused by Nello's description of the Fierucola, goes to see the celebration, find Tessa in the Church of the Annunziata, wanders through the fair with her, and ends by going through a mock marriage ceremony which she ignorantly believes to be real. Guido Biage, in his edition of Romola, points out that it is not certainn that the Fierucola was celbrated as early as the time of Romola, as, according to one tradition, the festival commemorates the taking of Siena in 1555.",
         "Source": "<em>Romola</em>",
         "Type": "Text"
@@ -13175,7 +13175,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21737",
         "Title": "\"Auld Lang Syne\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Tune played by the Tory band at the Treby election. A Scottish popular song which Robert Burns set originally to an older tune which was displaced in 1799 by the present tune ; an air popular in Scotland during the second half of the eighteenth century. There is some question whether Burns wrote all the words or adapted some stanzas from an older song.",
         "Source": "<em>Romola</em>",
         "Type": "Text"
@@ -13216,7 +13216,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21686",
         "Title": "\"All We Like Sheep\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A chorus from Handel's Messiah which Caterina Sarti plays.",
         "Source": "<em>Romola</em>",
         "Type": "Text"
@@ -13224,7 +13224,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21667",
         "Title": "\"Ah, Perche Non Posso Odiarti\" (I Love Thee Still) (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song from the \"Somnambula\" which Philip Wakem sings. \"La Sonnambula,\" an opera by Bellini (1801-35), first produced in 1831.",
         "Source": "<em>Romola</em>",
         "Type": "Text"
@@ -15129,7 +15129,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23473",
         "Title": "\"Sir Roger de Coverly\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A dance tune which Solomon Macy plays at the New Year's dance at the Red House. A popular dance tune, probably of North Country origin, from which Addison took the name of Sir Roger de Coverly in the Spectator.",
         "Source": "<em>Silas Marner</em>",
         "Type": "Text"
@@ -15137,7 +15137,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23108",
         "Title": "\"Over the Hills and Far Away\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A tune which Solomon Macey plays at the New Year's dance at the Red House. This song is found in George Farquhar's play The Recruiting Officer, first produced 1706. There is also a song to the same air and with the same refrain \"Over the Hills\", etc., in Gay's Beggar's Opera.",
         "Source": "<em>Silas Marner</em>",
         "Type": "Text"
@@ -15145,7 +15145,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22521",
         "Title": "\"Hark the Erol Angils Sing\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A Christmas hymn which Dolly Winthrop likes. \"Hark! The herald angels sing,\" a well known Christmas hymn by Charles Wesley, written 1739.",
         "Source": "<em>Silas Marner</em>",
         "Type": "Text"
@@ -15153,7 +15153,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22441",
         "Title": "\"God Rest You, Merry Gentlemen\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A \"Christmas carril\" which little Aaron Winthrop sings. The most popular of Christmas carols, author unknown.",
         "Source": "<em>Silas Marner</em>",
         "Type": "Text"
@@ -16528,7 +16528,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23450",
         "Title": "\"Shall I, Wasting in Despair\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song which Stephen Guest sings. The words were written by George Wither, 1617. The original setting, by a seventeenth century coposer is given in Chappell's Popular Music of the Olden Time.",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16536,7 +16536,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23273",
         "Title": "Purcell's Songs (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Lucy Deane's favourites among the songs sung by Stephen Guest.",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16544,7 +16544,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22921",
         "Title": "\"Masaniello, Duet In\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Duet which Stephen Guest and Philip Wakem sing. \"Masaniello\" is the name given in England to D. F. E. Auber's opera \"La mette de Portici\".",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16552,7 +16552,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22882",
         "Title": "\"Maid of Artois\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Music which Stephen Guest brings to Lucy Dean. An opera by W. M. Balfe.",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16560,7 +16560,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22837",
         "Title": "\"Love in Her Eyes Sits Playing\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song which Philip Wakem sings for Maggie Tulliver. A song from Handel's Acis and Galatea; the words are by John Gay.",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16568,7 +16568,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22769",
         "Title": "\"Let Us Take The Road\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song from the \"Beggar's Opera\" sung by Lucy Deane, Philip Wakem, and Stephen Guest.",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16576,7 +16576,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22599",
         "Title": "\"Hust, Ye Pretty Warbling Choir\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "One of the tunes played by Uncle Pullett's musical snuffbox. An air from Handel's masque or pastoral opera, \"Acis and Galatea\", composed about 1720. The words of the greater part, including this song, are by John Gay.",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16584,7 +16584,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22457",
         "Title": "\"Graceful Consort\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A song from \"The Creation\" which Lucy Deane and Stephen Guest sing. \"Graceful consort at they side,\" a duet from \"The Creation\" by Haydn (1732-1809).",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16592,7 +16592,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22114",
         "Title": "\"Creation\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "Lucy Deane and Stephen Guest sing several of the songs from the \"Creation\". An oratorio by Haydn (1732-1809).",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -16600,7 +16600,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/21806",
         "Title": "\"Begone, Dull Care\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A popular song, the words of which were suggested by a sixteenth century song, while the music was derived from the \"Queen's Jig.\"",
         "Source": "<em>The Mill on the Floss</em>",
         "Type": "Text"
@@ -17348,7 +17348,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23755",
         "Title": "\"Wedding Psalm\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "The psalm which caused a row when sung in Shepperton Church. W. Whittingham's version of the 133rd Psalm, in the old version of the Psalter.",
         "Source": "<em>The Sad Fortunes of the Reverend Amos Barton</em>",
         "Type": "Text"
@@ -17356,7 +17356,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23571",
         "Title": "\"Tempest, The\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "The music of \"The Tempest\" is among the songs sung by Stephen Guest, Philip Wakem, and Lucy Deane. The incidental music of The Tempest was written by Thomas A. Arne (1710-78), when the play was revived at Drury Lane Theatre, 1746.",
         "Source": "<em>The Sad Fortunes of the Reverend Amos Barton</em>",
         "Type": "Text"
@@ -17364,7 +17364,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/23306",
         "Title": "\"Record\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A periodical which Amos Barton would have taken in if he had been able to afford it. The Record, first published 1828, represented the views of the Evangelical element of the Church of England.",
         "Source": "<em>The Sad Fortunes of the Reverend Amos Barton</em>",
         "Type": "Text"
@@ -17372,7 +17372,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22869",
         "Title": "\"Lydia\" (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A tune which Mr. Barton sets in church, thereby scandalizing Mr. Farquhar. Composed by Thomas Phillipe (1774-1841), and used in Nonconformist hymnbooks before it was adopted in the Church of England.",
         "Source": "<em>The Sad Fortunes of the Reverend Amos Barton</em>",
         "Type": "Text"
@@ -17380,7 +17380,7 @@
     {
         "Identifier": "https://georgeeliotarchive.org/items/show/22040",
         "Title": "Christian Observer (Real)",
-        "Subject": "Real Name",
+        "Subject": "Item",
         "Description": "A periodical which Amos Barton would have taken in if he had been able to afford it. A monthly magazine, published 1802-74; continued as the Christian Observer and Advocate, 1875-1877.",
         "Source": "<em>The Sad Fortunes of the Reverend Amos Barton</em>",
         "Type": "Text"
