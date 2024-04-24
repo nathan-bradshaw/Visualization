@@ -41,7 +41,7 @@ float:left;
 
   .suggestions {
     position: absolute;
-    z-index: 9999; /* Ensure the suggestions appear above other elements */
+    z-index: 1; /* Ensure the suggestions appear above other elements */
     background-color: white;
     border: 1px solid #ccc;
     max-height: 200px; /* Set a maximum height for scrollability */
