@@ -2855,7 +2855,7 @@
         "characters": [
             {
                 "name": "Whale, Professer Sperm N",
-                "desc": "A distinguished Cetacean from whose spirited article in an American newspaper Grampus first leanrs of Mr. Merman's book."
+                "desc": "A distinguished Cetacean from whose spirited article in an American newspaper Grampus first learns of Mr. Merman's book."
             },
             {
                 "name": "Whale, Scrag",
@@ -3100,6 +3100,10 @@
             {
                 "name": "Bantam",
                 "desc": "A small, feebly crowing individual who attempts to correct the brilliant Aquila."
+            },
+            {
+                "name": "Such, Reverend Mr.",
+                "desc": "Theophrastus Such's father, a country clergy man in the Midlands. \"My father was none the less beloved because he was under stood to be of asaving disposition. . . . The sight of him was not un welcome at any door, and he was remarkable among the clergy of his district for having no lasting feud with rich or poor in his parish . . . He was apithy talker, and his sermons bore marks of his own composition."
             }
         ],
         "places": [
@@ -7232,10 +7236,6 @@
     },
     "<i>The Spanish Gypsy</i>": {
         "characters": [
-            {
-                "name": "Such, Reverend Mr.",
-                "desc": "Theophrastus Such's father, a country clergy man in the Midlands. \"My father was none the less beloved because he was under stood to be of asaving disposition. . . . The sight of him was not un welcome at any door, and he was remarkable among the clergy of his district for having no lasting feud with rich or poor in his parish . . . He was apithy talker, and his sermons bore marks of his own composition."
-            },
             {
                 "name": "Silva, Duke",
                 "desc": "\"Born de la Cerda, Calatravan Knight, Count of Segura, Fourth Duke of Bedmar.\" The Spanish Commander of Bedmar, who is betrothed to Fedalma, the Spanish Gypsy. \"On his surcoat white / Glitter the sword-belt and the jewelled hilt, / Red on the back and breast the holy cross, / And 'twixt the helmet and the soft-spun white / Thick tawny wavelets like the lion's mane / Turn backward from his brow pale, wide, erect, / Shadowing blue eyes-blue as the rain-washed sky / That braced the early stem of Gothic kings / He claims for ancestry. A goodly knight / A noble caballero, broad of chest / And long of limb.\" He is in command of the fortress of Bedmar, an outpost in Andalusia, but is not, so rumour goes, pressing his command against the Moors very vigorously because he is loath to leave his betrothed, Fedalma, a beautiful Gypsy girl who had been adopted by his mother, the Duchess Diana. Knowing that Fedalma is menaced by the Inquisition, he presses for an immediate marriage. When Fedalma, on learning that Zarca, the captured Gypsy chief, is her long-lost father casts in her lot with him and escapes with him from Bedmar, Duke Silva is broken-hearted. He follows Fedalma to the Gypsy camp, and when he cannot persuade her to return, elects to remain with her and become a Gypsy. Mean while the Moors and Gypsies attack Bedmar, and Silva brought back there finds his trust betrayed, his friends slain and his uncle, Father Isidor, the Inquisitor, about to be executed. Unable to prevail upon Zarca to spare the Prior's life, Silva kills Zarca, by that act separating himself forever from Fedalma."
